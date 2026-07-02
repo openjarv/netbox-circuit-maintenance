@@ -1,0 +1,76 @@
+{% extends "generic/object.html" %}
+{% load helpers %}
+
+{% block content %}
+<div class="row">
+  <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <strong>Circuit Maintenance Details</strong>
+      </div>
+      <table class="table table-hover panel-body">
+        <tr>
+          <th>Name</th>
+          <td>{{ object.name }}</td>
+        </tr>
+        <tr>
+          <th>Circuit</th>
+          <td><a href="{{ object.circuit.get_absolute_url }}">{{ object.circuit }}</a></td>
+        </tr>
+        <tr>
+          <th>Status</th>
+          <td>{{ object.get_status_display }}</td>
+        </tr>
+        <tr>
+          <th>Impact</th>
+          <td>{{ object.get_impact_display }}</td>
+        </tr>
+        <tr>
+          <th>Start Time</th>
+          <td>{{ object.start_time }}</td>
+        </tr>
+        <tr>
+          <th>End Time</th>
+          <td>{{ object.end_time }}</td>
+        </tr>
+        <tr>
+          <th>Ticket ID</th>
+          <td>{{ object.ticket_id|placeholder }}</td>
+        </tr>
+        <tr>
+          <th>Provider Tracking ID</th>
+          <td>{{ object.provider_tracking_id|placeholder }}</td>
+        </tr>
+        <tr>
+          <th>Contact</th>
+          <td>{{ object.contact|placeholder }}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <strong>Description</strong>
+      </div>
+      <div class="panel-body">
+        {% if object.description %}
+          {{ object.description|markdown }}
+        {% else %}
+          <span class="text-muted">No description</span>
+        {% endif %}
+      </div>
+    </div>
+    {% if object.notes %}
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <strong>Notes</strong>
+      </div>
+      <div class="panel-body">
+        {{ object.notes|markdown }}
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

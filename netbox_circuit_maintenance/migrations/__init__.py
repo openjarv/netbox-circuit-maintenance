@@ -1,0 +1,1 @@
+from netbox_circuit_maintenance.models import CircuitMaintenance  # noqa: F401
