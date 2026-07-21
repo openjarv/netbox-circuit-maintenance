@@ -1,8 +1,7 @@
-# Graph Report - netbox-circuit-maintenance  (2026-07-19)
+# Graph Report - .  (2026-07-21)
 
 ## Corpus Check
-- 39 files · ~14,215 words
-- Verdict: corpus is large enough that graph structure adds value.
+- cluster-only mode — file stats not available
 
 ## Summary
 - 268 nodes · 354 edges · 26 communities (19 shown, 7 thin omitted)
@@ -10,7 +9,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `30defbc2`
+- Built from commit: `829398e5`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -18,17 +17,16 @@
 - CircuitMaintenanceModelTest
 - CircuitMaintenance
 - MaintenanceImpactChoices
+- What You Must Do When Invoked
 - CircuitMaintenanceViewTest
 - CircuitMaintenanceAPITest
 - MaintenanceStatusChoicesTest
 - views.py
-- __init__.py
-- 0001_initial.py
 - netbox-circuit-maintenance
-- What You Must Do When Invoked
 - Graphify
 - graphify reference: extra exports and benchmark
 - graphify reference: query, path, explain
+- __init__.py
 - graphify reference: add a URL and watch a folder
 - graphify reference: commit hook and native CLAUDE.md integration
 - graphify reference: incremental update and cluster-only
@@ -36,8 +34,9 @@
 - graphify reference: GitHub clone and cross-repo merge
 - graphify reference: transcribe video and audio
 - AGENTS.md
+- 0001_initial.py
 - extraction-spec.md
-- extraction-spec.md
+- netbox-circuit-maintenance
 
 ## God Nodes (most connected - your core abstractions)
 1. `CircuitMaintenance` - 47 edges
@@ -80,55 +79,55 @@ Nodes (21): Meta, CircuitMaintenanceType, Meta, Query, CircuitMaintenance, A pla
 Cohesion: 0.16
 Nodes (18): MaintenanceImpactChoices, MaintenanceStatusChoices, CircuitMaintenanceFilterForm, CircuitMaintenanceForm, Meta, Filter form for CircuitMaintenance list view., Form for creating/editing CircuitMaintenance objects., Meta (+10 more)
 
-### Community 3 - "CircuitMaintenanceViewTest"
-Cohesion: 0.09
-Nodes (12): CircuitMaintenanceViewTest, Test filtering maintenances by status., Tests for CircuitMaintenance views., Test the maintenance list view returns 200., Test the list view shows created maintenances., Test the maintenance detail view returns 200., Test the create view returns 200 on GET., Test creating a maintenance via POST. (+4 more)
-
-### Community 4 - "CircuitMaintenanceAPITest"
-Cohesion: 0.10
-Nodes (11): CircuitMaintenanceAPITest, Tests for CircuitMaintenance REST API., Test GET /api/plugins/circuit-maintenance/maintenances/., Test POST /api/plugins/circuit-maintenance/maintenances/., Test GET /api/plugins/circuit-maintenance/maintenances/{id}/., Test PATCH /api/plugins/circuit-maintenance/maintenances/{id}/., Test DELETE /api/plugins/circuit-maintenance/maintenances/{id}/., Test filtering API results by status. (+3 more)
-
-### Community 5 - "MaintenanceStatusChoicesTest"
-Cohesion: 0.12
-Nodes (5): MaintenanceImpactChoicesTest, MaintenanceStatusChoicesTest, TestCase, Tests for MaintenanceImpactChoices., Tests for MaintenanceStatusChoices.
-
-### Community 6 - "views.py"
-Cohesion: 0.19
-Nodes (10): CircuitMaintenanceSerializer, Meta, Serializer for CircuitMaintenance model., CircuitMaintenanceViewSet, API viewset for CircuitMaintenance model., CircuitMaintenanceFilterSet, FilterSet for CircuitMaintenance model., NetBoxModelFilterSet (+2 more)
-
-### Community 7 - "__init__.py"
-Cohesion: 0.40
-Nodes (3): CircuitMaintenanceConfig, Version information for netbox-circuit-maintenance., PluginConfig
-
-### Community 13 - "What You Must Do When Invoked"
+### Community 3 - "What You Must Do When Invoked"
 Cohesion: 0.08
 Nodes (24): For /graphify add and --watch, For /graphify query, For the commit hook and native CLAUDE.md integration, For --update and --cluster-only, /graphify, Honesty Rules, Interpreter guard for subcommands, Part A - Structural extraction for code files (+16 more)
 
-### Community 14 - "Graphify"
+### Community 4 - "CircuitMaintenanceViewTest"
+Cohesion: 0.09
+Nodes (12): CircuitMaintenanceViewTest, Test filtering maintenances by status., Tests for CircuitMaintenance views., Test the maintenance list view returns 200., Test the list view shows created maintenances., Test the maintenance detail view returns 200., Test the create view returns 200 on GET., Test creating a maintenance via POST. (+4 more)
+
+### Community 5 - "CircuitMaintenanceAPITest"
+Cohesion: 0.10
+Nodes (11): CircuitMaintenanceAPITest, Tests for CircuitMaintenance REST API., Test GET /api/plugins/circuit-maintenance/maintenances/., Test POST /api/plugins/circuit-maintenance/maintenances/., Test GET /api/plugins/circuit-maintenance/maintenances/{id}/., Test PATCH /api/plugins/circuit-maintenance/maintenances/{id}/., Test DELETE /api/plugins/circuit-maintenance/maintenances/{id}/., Test filtering API results by status. (+3 more)
+
+### Community 6 - "MaintenanceStatusChoicesTest"
+Cohesion: 0.12
+Nodes (5): MaintenanceImpactChoicesTest, MaintenanceStatusChoicesTest, TestCase, Tests for MaintenanceImpactChoices., Tests for MaintenanceStatusChoices.
+
+### Community 7 - "views.py"
+Cohesion: 0.19
+Nodes (10): CircuitMaintenanceSerializer, Meta, Serializer for CircuitMaintenance model., CircuitMaintenanceViewSet, API viewset for CircuitMaintenance model., CircuitMaintenanceFilterSet, FilterSet for CircuitMaintenance model., NetBoxModelFilterSet (+2 more)
+
+### Community 8 - "netbox-circuit-maintenance"
 Cohesion: 0.17
 Nodes (11): CircuitMaintenance, Configuration, Creating a Maintenance, Data Model, Development, Features, Installation, License (+3 more)
 
-### Community 15 - "graphify reference: extra exports and benchmark"
+### Community 9 - "Graphify"
 Cohesion: 0.22
 Nodes (8): Graphify, How the graph stays current, How to query the graph, How to refresh manually, Notes, Setup (already done — for reference), What is committed, What is NOT committed (gitignored)
 
-### Community 16 - "graphify reference: query, path, explain"
+### Community 10 - "graphify reference: extra exports and benchmark"
 Cohesion: 0.22
 Nodes (8): graphify reference: extra exports and benchmark, Step 6b - Wiki (only if --wiki flag), Step 7 - Neo4j export (only if --neo4j or --neo4j-push flag), Step 7a - FalkorDB export (only if --falkordb or --falkordb-push flag), Step 7b - SVG export (only if --svg flag), Step 7c - GraphML export (only if --graphml flag), Step 7d - MCP server (only if --mcp flag), Step 8 - Token reduction benchmark (only if total_words > 5000)
 
-### Community 17 - "graphify reference: add a URL and watch a folder"
+### Community 11 - "graphify reference: query, path, explain"
 Cohesion: 0.33
 Nodes (5): For /graphify explain, For /graphify path, graphify reference: query, path, explain, Step 0 — Constrained query expansion (REQUIRED before traversal), Step 1 — Traversal
 
-### Community 18 - "graphify reference: commit hook and native CLAUDE.md integration"
+### Community 12 - "__init__.py"
+Cohesion: 0.40
+Nodes (3): CircuitMaintenanceConfig, Version information for netbox-circuit-maintenance., PluginConfig
+
+### Community 13 - "graphify reference: add a URL and watch a folder"
 Cohesion: 0.50
 Nodes (3): For /graphify add, For --watch, graphify reference: add a URL and watch a folder
 
-### Community 19 - "graphify reference: incremental update and cluster-only"
+### Community 14 - "graphify reference: commit hook and native CLAUDE.md integration"
 Cohesion: 0.50
 Nodes (3): For git commit hook, For native CLAUDE.md integration, graphify reference: commit hook and native CLAUDE.md integration
 
-### Community 20 - "graphify.js"
+### Community 15 - "graphify reference: incremental update and cluster-only"
 Cohesion: 0.50
 Nodes (3): For --cluster-only, For --update (incremental re-extraction), graphify reference: incremental update and cluster-only
 

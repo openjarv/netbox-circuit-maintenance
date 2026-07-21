@@ -10,8 +10,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "opencode_plugins_graphify",
-      "community": 21,
-      "community_name": "graphify reference: GitHub clone and cross-repo merge",
+      "community": 16,
+      "community_name": "graphify.js",
       "norm_label": "graphify.js"
     },
     {
@@ -21,8 +21,8 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "opencode_plugins_graphify_graphifyplugin",
-      "community": 21,
-      "community_name": "graphify reference: GitHub clone and cross-repo merge",
+      "community": 16,
+      "community_name": "graphify.js",
       "norm_label": "graphifyplugin()"
     },
     {
@@ -32,8 +32,8 @@
       "source_location": "L4",
       "_origin": "ast",
       "id": "opencode_plugins_graphify_rationale_4",
-      "community": 21,
-      "community_name": "graphify reference: GitHub clone and cross-repo merge",
+      "community": 16,
+      "community_name": "graphify.js",
       "norm_label": "important: keep the reminder string free of backticks and $(...) constructs."
     },
     {
@@ -43,7 +43,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_init",
-      "community": 7,
+      "community": 12,
       "community_name": "__init__.py",
       "norm_label": "__init__.py"
     },
@@ -54,7 +54,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_init_circuitmaintenanceconfig",
-      "community": 7,
+      "community": 12,
       "community_name": "__init__.py",
       "norm_label": "circuitmaintenanceconfig"
     },
@@ -65,7 +65,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "pluginconfig",
-      "community": 7,
+      "community": 12,
       "community_name": "__init__.py",
       "norm_label": "pluginconfig"
     },
@@ -76,7 +76,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_api_init",
-      "community": 9,
+      "community": 22,
       "community_name": "__init__.py",
       "norm_label": "__init__.py"
     },
@@ -87,7 +87,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_api_serializers",
-      "community": 6,
+      "community": 7,
       "community_name": "views.py",
       "norm_label": "serializers.py"
     },
@@ -98,7 +98,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_api_serializers_circuitmaintenanceserializer",
-      "community": 6,
+      "community": 7,
       "community_name": "views.py",
       "norm_label": "circuitmaintenanceserializer"
     },
@@ -109,7 +109,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "netboxmodelserializer",
-      "community": 6,
+      "community": 7,
       "community_name": "views.py",
       "norm_label": "netboxmodelserializer"
     },
@@ -120,7 +120,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_api_serializers_meta",
-      "community": 6,
+      "community": 7,
       "community_name": "views.py",
       "norm_label": "meta"
     },
@@ -131,7 +131,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_api_serializers_rationale_8",
-      "community": 6,
+      "community": 7,
       "community_name": "views.py",
       "norm_label": "serializer for circuitmaintenance model."
     },
@@ -142,7 +142,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_api_urls",
-      "community": 6,
+      "community": 7,
       "community_name": "views.py",
       "norm_label": "urls.py"
     },
@@ -153,7 +153,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_api_views",
-      "community": 6,
+      "community": 7,
       "community_name": "views.py",
       "norm_label": "views.py"
     },
@@ -164,7 +164,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_api_views_circuitmaintenanceviewset",
-      "community": 6,
+      "community": 7,
       "community_name": "views.py",
       "norm_label": "circuitmaintenanceviewset"
     },
@@ -175,7 +175,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "netboxmodelviewset",
-      "community": 6,
+      "community": 7,
       "community_name": "views.py",
       "norm_label": "netboxmodelviewset"
     },
@@ -186,7 +186,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_api_views_rationale_8",
-      "community": 6,
+      "community": 7,
       "community_name": "views.py",
       "norm_label": "api viewset for circuitmaintenance model."
     },
@@ -241,7 +241,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_filtersets_circuitmaintenancefilterset",
-      "community": 6,
+      "community": 7,
       "community_name": "views.py",
       "norm_label": "circuitmaintenancefilterset"
     },
@@ -252,7 +252,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "netboxmodelfilterset",
-      "community": 6,
+      "community": 7,
       "community_name": "views.py",
       "norm_label": "netboxmodelfilterset"
     },
@@ -274,7 +274,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_filtersets_circuitmaintenancefilterset_search",
-      "community": 6,
+      "community": 7,
       "community_name": "views.py",
       "norm_label": ".search()"
     },
@@ -285,7 +285,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_filtersets_rationale_9",
-      "community": 6,
+      "community": 7,
       "community_name": "views.py",
       "norm_label": "filterset for circuitmaintenance model."
     },
@@ -362,7 +362,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_graphql_init",
-      "community": 10,
+      "community": 23,
       "community_name": "__init__.py",
       "norm_label": "__init__.py"
     },
@@ -428,7 +428,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_migrations_0001_initial",
-      "community": 8,
+      "community": 20,
       "community_name": "0001_initial.py",
       "norm_label": "0001_initial.py"
     },
@@ -439,7 +439,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_migrations_0001_initial_migration",
-      "community": 8,
+      "community": 20,
       "community_name": "0001_initial.py",
       "norm_label": "migration"
     },
@@ -538,7 +538,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_navigation",
-      "community": 11,
+      "community": 24,
       "community_name": "navigation.py",
       "norm_label": "navigation.py"
     },
@@ -747,7 +747,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest",
-      "community": 4,
+      "community": 5,
       "community_name": "CircuitMaintenanceAPITest",
       "norm_label": "circuitmaintenanceapitest"
     },
@@ -758,7 +758,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_list_maintenances",
-      "community": 4,
+      "community": 5,
       "community_name": "CircuitMaintenanceAPITest",
       "norm_label": ".test_list_maintenances()"
     },
@@ -769,7 +769,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_create_maintenance",
-      "community": 4,
+      "community": 5,
       "community_name": "CircuitMaintenanceAPITest",
       "norm_label": ".test_create_maintenance()"
     },
@@ -780,7 +780,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_retrieve_maintenance",
-      "community": 4,
+      "community": 5,
       "community_name": "CircuitMaintenanceAPITest",
       "norm_label": ".test_retrieve_maintenance()"
     },
@@ -791,7 +791,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_update_maintenance",
-      "community": 4,
+      "community": 5,
       "community_name": "CircuitMaintenanceAPITest",
       "norm_label": ".test_update_maintenance()"
     },
@@ -802,7 +802,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_delete_maintenance",
-      "community": 4,
+      "community": 5,
       "community_name": "CircuitMaintenanceAPITest",
       "norm_label": ".test_delete_maintenance()"
     },
@@ -813,7 +813,7 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_filter_by_status",
-      "community": 4,
+      "community": 5,
       "community_name": "CircuitMaintenanceAPITest",
       "norm_label": ".test_filter_by_status()"
     },
@@ -824,7 +824,7 @@
       "source_location": "L75",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_filter_by_impact",
-      "community": 4,
+      "community": 5,
       "community_name": "CircuitMaintenanceAPITest",
       "norm_label": ".test_filter_by_impact()"
     },
@@ -835,7 +835,7 @@
       "source_location": "L85",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_search",
-      "community": 4,
+      "community": 5,
       "community_name": "CircuitMaintenanceAPITest",
       "norm_label": ".test_search()"
     },
@@ -846,7 +846,7 @@
       "source_location": "L98",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_required_fields_validation",
-      "community": 4,
+      "community": 5,
       "community_name": "CircuitMaintenanceAPITest",
       "norm_label": ".test_required_fields_validation()"
     },
@@ -868,7 +868,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_api_rationale_14",
-      "community": 4,
+      "community": 5,
       "community_name": "CircuitMaintenanceAPITest",
       "norm_label": "tests for circuitmaintenance rest api."
     },
@@ -879,7 +879,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_api_rationale_17",
-      "community": 4,
+      "community": 5,
       "community_name": "CircuitMaintenanceAPITest",
       "norm_label": "test get /api/plugins/circuit-maintenance/maintenances/."
     },
@@ -890,7 +890,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_api_rationale_23",
-      "community": 4,
+      "community": 5,
       "community_name": "CircuitMaintenanceAPITest",
       "norm_label": "test post /api/plugins/circuit-maintenance/maintenances/."
     },
@@ -901,7 +901,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_api_rationale_39",
-      "community": 4,
+      "community": 5,
       "community_name": "CircuitMaintenanceAPITest",
       "norm_label": "test get /api/plugins/circuit-maintenance/maintenances/{id}/."
     },
@@ -912,7 +912,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_api_rationale_47",
-      "community": 4,
+      "community": 5,
       "community_name": "CircuitMaintenanceAPITest",
       "norm_label": "test patch /api/plugins/circuit-maintenance/maintenances/{id}/."
     },
@@ -923,7 +923,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_api_rationale_57",
-      "community": 4,
+      "community": 5,
       "community_name": "CircuitMaintenanceAPITest",
       "norm_label": "test delete /api/plugins/circuit-maintenance/maintenances/{id}/."
     },
@@ -934,7 +934,7 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_api_rationale_66",
-      "community": 4,
+      "community": 5,
       "community_name": "CircuitMaintenanceAPITest",
       "norm_label": "test filtering api results by status."
     },
@@ -945,7 +945,7 @@
       "source_location": "L76",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_api_rationale_76",
-      "community": 4,
+      "community": 5,
       "community_name": "CircuitMaintenanceAPITest",
       "norm_label": "test filtering api results by impact."
     },
@@ -956,7 +956,7 @@
       "source_location": "L86",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_api_rationale_86",
-      "community": 4,
+      "community": 5,
       "community_name": "CircuitMaintenanceAPITest",
       "norm_label": "test the search filter."
     },
@@ -967,7 +967,7 @@
       "source_location": "L99",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_api_rationale_99",
-      "community": 4,
+      "community": 5,
       "community_name": "CircuitMaintenanceAPITest",
       "norm_label": "test that required fields are enforced."
     },
@@ -989,7 +989,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest",
-      "community": 5,
+      "community": 6,
       "community_name": "MaintenanceStatusChoicesTest",
       "norm_label": "maintenancestatuschoicestest"
     },
@@ -1000,7 +1000,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_choices_py_testcase",
-      "community": 5,
+      "community": 6,
       "community_name": "MaintenanceStatusChoicesTest",
       "norm_label": "testcase"
     },
@@ -1011,7 +1011,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest_test_planned_exists",
-      "community": 5,
+      "community": 6,
       "community_name": "MaintenanceStatusChoicesTest",
       "norm_label": ".test_planned_exists()"
     },
@@ -1022,7 +1022,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest_test_scheduled_exists",
-      "community": 5,
+      "community": 6,
       "community_name": "MaintenanceStatusChoicesTest",
       "norm_label": ".test_scheduled_exists()"
     },
@@ -1033,7 +1033,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest_test_in_progress_exists",
-      "community": 5,
+      "community": 6,
       "community_name": "MaintenanceStatusChoicesTest",
       "norm_label": ".test_in_progress_exists()"
     },
@@ -1044,7 +1044,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest_test_completed_exists",
-      "community": 5,
+      "community": 6,
       "community_name": "MaintenanceStatusChoicesTest",
       "norm_label": ".test_completed_exists()"
     },
@@ -1055,7 +1055,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest_test_cancelled_exists",
-      "community": 5,
+      "community": 6,
       "community_name": "MaintenanceStatusChoicesTest",
       "norm_label": ".test_cancelled_exists()"
     },
@@ -1066,7 +1066,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest_test_choices_count",
-      "community": 5,
+      "community": 6,
       "community_name": "MaintenanceStatusChoicesTest",
       "norm_label": ".test_choices_count()"
     },
@@ -1077,7 +1077,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest_test_labels_are_human_readable",
-      "community": 5,
+      "community": 6,
       "community_name": "MaintenanceStatusChoicesTest",
       "norm_label": ".test_labels_are_human_readable()"
     },
@@ -1088,7 +1088,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest",
-      "community": 5,
+      "community": 6,
       "community_name": "MaintenanceStatusChoicesTest",
       "norm_label": "maintenanceimpactchoicestest"
     },
@@ -1099,7 +1099,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest_test_degraded_exists",
-      "community": 5,
+      "community": 6,
       "community_name": "MaintenanceStatusChoicesTest",
       "norm_label": ".test_degraded_exists()"
     },
@@ -1110,7 +1110,7 @@
       "source_location": "L41",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest_test_interrupted_exists",
-      "community": 5,
+      "community": 6,
       "community_name": "MaintenanceStatusChoicesTest",
       "norm_label": ".test_interrupted_exists()"
     },
@@ -1121,7 +1121,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest_test_no_impact_exists",
-      "community": 5,
+      "community": 6,
       "community_name": "MaintenanceStatusChoicesTest",
       "norm_label": ".test_no_impact_exists()"
     },
@@ -1132,7 +1132,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest_test_choices_count",
-      "community": 5,
+      "community": 6,
       "community_name": "MaintenanceStatusChoicesTest",
       "norm_label": ".test_choices_count()"
     },
@@ -1143,7 +1143,7 @@
       "source_location": "L50",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest_test_labels_are_human_readable",
-      "community": 5,
+      "community": 6,
       "community_name": "MaintenanceStatusChoicesTest",
       "norm_label": ".test_labels_are_human_readable()"
     },
@@ -1165,7 +1165,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_choices_rationale_9",
-      "community": 5,
+      "community": 6,
       "community_name": "MaintenanceStatusChoicesTest",
       "norm_label": "tests for maintenancestatuschoices."
     },
@@ -1176,7 +1176,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_choices_rationale_36",
-      "community": 5,
+      "community": 6,
       "community_name": "MaintenanceStatusChoicesTest",
       "norm_label": "tests for maintenanceimpactchoices."
     },
@@ -1660,7 +1660,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest",
-      "community": 3,
+      "community": 4,
       "community_name": "CircuitMaintenanceViewTest",
       "norm_label": "circuitmaintenanceviewtest"
     },
@@ -1671,7 +1671,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_list_view",
-      "community": 3,
+      "community": 4,
       "community_name": "CircuitMaintenanceViewTest",
       "norm_label": ".test_list_view()"
     },
@@ -1682,7 +1682,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_list_view_with_data",
-      "community": 3,
+      "community": 4,
       "community_name": "CircuitMaintenanceViewTest",
       "norm_label": ".test_list_view_with_data()"
     },
@@ -1693,7 +1693,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_detail_view",
-      "community": 3,
+      "community": 4,
       "community_name": "CircuitMaintenanceViewTest",
       "norm_label": ".test_detail_view()"
     },
@@ -1704,7 +1704,7 @@
       "source_location": "L37",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_create_view_get",
-      "community": 3,
+      "community": 4,
       "community_name": "CircuitMaintenanceViewTest",
       "norm_label": ".test_create_view_get()"
     },
@@ -1715,7 +1715,7 @@
       "source_location": "L43",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_create_view_post",
-      "community": 3,
+      "community": 4,
       "community_name": "CircuitMaintenanceViewTest",
       "norm_label": ".test_create_view_post()"
     },
@@ -1726,7 +1726,7 @@
       "source_location": "L61",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_edit_view_get",
-      "community": 3,
+      "community": 4,
       "community_name": "CircuitMaintenanceViewTest",
       "norm_label": ".test_edit_view_get()"
     },
@@ -1737,7 +1737,7 @@
       "source_location": "L68",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_edit_view_post",
-      "community": 3,
+      "community": 4,
       "community_name": "CircuitMaintenanceViewTest",
       "norm_label": ".test_edit_view_post()"
     },
@@ -1748,7 +1748,7 @@
       "source_location": "L86",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_delete_view_get",
-      "community": 3,
+      "community": 4,
       "community_name": "CircuitMaintenanceViewTest",
       "norm_label": ".test_delete_view_get()"
     },
@@ -1759,7 +1759,7 @@
       "source_location": "L93",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_delete_view_post",
-      "community": 3,
+      "community": 4,
       "community_name": "CircuitMaintenanceViewTest",
       "norm_label": ".test_delete_view_post()"
     },
@@ -1770,7 +1770,7 @@
       "source_location": "L102",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_filter_by_status",
-      "community": 3,
+      "community": 4,
       "community_name": "CircuitMaintenanceViewTest",
       "norm_label": ".test_filter_by_status()"
     },
@@ -1792,7 +1792,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_views_rationale_13",
-      "community": 3,
+      "community": 4,
       "community_name": "CircuitMaintenanceViewTest",
       "norm_label": "tests for circuitmaintenance views."
     },
@@ -1803,7 +1803,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_views_rationale_16",
-      "community": 3,
+      "community": 4,
       "community_name": "CircuitMaintenanceViewTest",
       "norm_label": "test the maintenance list view returns 200."
     },
@@ -1814,7 +1814,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_views_rationale_22",
-      "community": 3,
+      "community": 4,
       "community_name": "CircuitMaintenanceViewTest",
       "norm_label": "test the list view shows created maintenances."
     },
@@ -1825,7 +1825,7 @@
       "source_location": "L30",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_views_rationale_30",
-      "community": 3,
+      "community": 4,
       "community_name": "CircuitMaintenanceViewTest",
       "norm_label": "test the maintenance detail view returns 200."
     },
@@ -1836,7 +1836,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_views_rationale_38",
-      "community": 3,
+      "community": 4,
       "community_name": "CircuitMaintenanceViewTest",
       "norm_label": "test the create view returns 200 on get."
     },
@@ -1847,7 +1847,7 @@
       "source_location": "L44",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_views_rationale_44",
-      "community": 3,
+      "community": 4,
       "community_name": "CircuitMaintenanceViewTest",
       "norm_label": "test creating a maintenance via post."
     },
@@ -1858,7 +1858,7 @@
       "source_location": "L62",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_views_rationale_62",
-      "community": 3,
+      "community": 4,
       "community_name": "CircuitMaintenanceViewTest",
       "norm_label": "test the edit view returns 200 on get."
     },
@@ -1869,7 +1869,7 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_views_rationale_69",
-      "community": 3,
+      "community": 4,
       "community_name": "CircuitMaintenanceViewTest",
       "norm_label": "test updating a maintenance via post."
     },
@@ -1880,7 +1880,7 @@
       "source_location": "L87",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_views_rationale_87",
-      "community": 3,
+      "community": 4,
       "community_name": "CircuitMaintenanceViewTest",
       "norm_label": "test the delete view returns 200 on get."
     },
@@ -1891,7 +1891,7 @@
       "source_location": "L94",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_views_rationale_94",
-      "community": 3,
+      "community": 4,
       "community_name": "CircuitMaintenanceViewTest",
       "norm_label": "test deleting a maintenance via post."
     },
@@ -1902,7 +1902,7 @@
       "source_location": "L103",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_tests_test_views_rationale_103",
-      "community": 3,
+      "community": 4,
       "community_name": "CircuitMaintenanceViewTest",
       "norm_label": "test filtering maintenances by status."
     },
@@ -1924,7 +1924,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_version",
-      "community": 7,
+      "community": 12,
       "community_name": "__init__.py",
       "norm_label": "version.py"
     },
@@ -1935,7 +1935,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_version_rationale_1",
-      "community": 7,
+      "community": 12,
       "community_name": "__init__.py",
       "norm_label": "version information for netbox-circuit-maintenance."
     },
@@ -2037,7 +2037,7 @@
       "version": "0.1.0",
       "_origin": "ast",
       "id": "pkg_netbox_circuit_maintenance",
-      "community": 12,
+      "community": 25,
       "community_name": "netbox-circuit-maintenance",
       "norm_label": "netbox-circuit-maintenance"
     },
@@ -2048,7 +2048,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "opencode_skills_graphify_skill",
-      "community": 13,
+      "community": 3,
       "community_name": "What You Must Do When Invoked",
       "norm_label": "skill.md"
     },
@@ -2059,7 +2059,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "opencode_skills_graphify_skill_graphify",
-      "community": 13,
+      "community": 3,
       "community_name": "What You Must Do When Invoked",
       "norm_label": "/graphify"
     },
@@ -2070,7 +2070,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "opencode_skills_graphify_skill_usage",
-      "community": 13,
+      "community": 3,
       "community_name": "What You Must Do When Invoked",
       "norm_label": "usage"
     },
@@ -2081,7 +2081,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "opencode_skills_graphify_skill_what_graphify_is_for",
-      "community": 13,
+      "community": 3,
       "community_name": "What You Must Do When Invoked",
       "norm_label": "what graphify is for"
     },
@@ -2092,7 +2092,7 @@
       "source_location": "L49",
       "_origin": "ast",
       "id": "opencode_skills_graphify_skill_what_you_must_do_when_invoked",
-      "community": 13,
+      "community": 3,
       "community_name": "What You Must Do When Invoked",
       "norm_label": "what you must do when invoked"
     },
@@ -2103,7 +2103,7 @@
       "source_location": "L61",
       "_origin": "ast",
       "id": "opencode_skills_graphify_skill_step_0_github_repos_and_multi_path_merge_only_if_a_url_or_several_paths",
-      "community": 13,
+      "community": 3,
       "community_name": "What You Must Do When Invoked",
       "norm_label": "step 0 - github repos and multi-path merge (only if a url or several paths)"
     },
@@ -2114,7 +2114,7 @@
       "source_location": "L65",
       "_origin": "ast",
       "id": "opencode_skills_graphify_skill_step_1_ensure_graphify_is_installed",
-      "community": 13,
+      "community": 3,
       "community_name": "What You Must Do When Invoked",
       "norm_label": "step 1 - ensure graphify is installed"
     },
@@ -2125,7 +2125,7 @@
       "source_location": "L107",
       "_origin": "ast",
       "id": "opencode_skills_graphify_skill_step_2_detect_files",
-      "community": 13,
+      "community": 3,
       "community_name": "What You Must Do When Invoked",
       "norm_label": "step 2 - detect files"
     },
@@ -2136,7 +2136,7 @@
       "source_location": "L144",
       "_origin": "ast",
       "id": "opencode_skills_graphify_skill_step_2_5_video_and_audio_only_if_video_files_detected",
-      "community": 13,
+      "community": 3,
       "community_name": "What You Must Do When Invoked",
       "norm_label": "step 2.5 - video and audio (only if video files detected)"
     },
@@ -2147,7 +2147,7 @@
       "source_location": "L148",
       "_origin": "ast",
       "id": "opencode_skills_graphify_skill_step_3_extract_entities_and_relationships",
-      "community": 13,
+      "community": 3,
       "community_name": "What You Must Do When Invoked",
       "norm_label": "step 3 - extract entities and relationships"
     },
@@ -2158,7 +2158,7 @@
       "source_location": "L167",
       "_origin": "ast",
       "id": "opencode_skills_graphify_skill_part_a_structural_extraction_for_code_files",
-      "community": 13,
+      "community": 3,
       "community_name": "What You Must Do When Invoked",
       "norm_label": "part a - structural extraction for code files"
     },
@@ -2169,7 +2169,7 @@
       "source_location": "L193",
       "_origin": "ast",
       "id": "opencode_skills_graphify_skill_part_b_semantic_extraction_parallel_subagents",
-      "community": 13,
+      "community": 3,
       "community_name": "What You Must Do When Invoked",
       "norm_label": "part b - semantic extraction (parallel subagents)"
     },
@@ -2180,7 +2180,7 @@
       "source_location": "L348",
       "_origin": "ast",
       "id": "opencode_skills_graphify_skill_part_c_merge_ast_semantic_into_final_extraction",
-      "community": 13,
+      "community": 3,
       "community_name": "What You Must Do When Invoked",
       "norm_label": "part c - merge ast + semantic into final extraction"
     },
@@ -2191,7 +2191,7 @@
       "source_location": "L382",
       "_origin": "ast",
       "id": "opencode_skills_graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs",
-      "community": 13,
+      "community": 3,
       "community_name": "What You Must Do When Invoked",
       "norm_label": "step 4 - build graph, cluster, analyze, generate outputs"
     },
@@ -2202,7 +2202,7 @@
       "source_location": "L445",
       "_origin": "ast",
       "id": "opencode_skills_graphify_skill_step_4_5_graph_health_check_read_only_integrity_gate",
-      "community": 13,
+      "community": 3,
       "community_name": "What You Must Do When Invoked",
       "norm_label": "step 4.5 - graph health check (read-only integrity gate)"
     },
@@ -2213,7 +2213,7 @@
       "source_location": "L471",
       "_origin": "ast",
       "id": "opencode_skills_graphify_skill_step_5_label_communities",
-      "community": 13,
+      "community": 3,
       "community_name": "What You Must Do When Invoked",
       "norm_label": "step 5 - label communities"
     },
@@ -2224,7 +2224,7 @@
       "source_location": "L512",
       "_origin": "ast",
       "id": "opencode_skills_graphify_skill_step_6_generate_obsidian_vault_opt_in_html",
-      "community": 13,
+      "community": 3,
       "community_name": "What You Must Do When Invoked",
       "norm_label": "step 6 - generate obsidian vault (opt-in) + html"
     },
@@ -2235,7 +2235,7 @@
       "source_location": "L532",
       "_origin": "ast",
       "id": "opencode_skills_graphify_skill_steps_6b_8_wiki_neo4j_falkordb_svg_graphml_mcp_benchmark_only_on_their_flags",
-      "community": 13,
+      "community": 3,
       "community_name": "What You Must Do When Invoked",
       "norm_label": "steps 6b-8 - wiki, neo4j, falkordb, svg, graphml, mcp, benchmark (only on their flags)"
     },
@@ -2246,7 +2246,7 @@
       "source_location": "L538",
       "_origin": "ast",
       "id": "opencode_skills_graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report",
-      "community": 13,
+      "community": 3,
       "community_name": "What You Must Do When Invoked",
       "norm_label": "step 9 - save manifest, update cost tracker, clean up, and report"
     },
@@ -2257,7 +2257,7 @@
       "source_location": "L618",
       "_origin": "ast",
       "id": "opencode_skills_graphify_skill_interpreter_guard_for_subcommands",
-      "community": 13,
+      "community": 3,
       "community_name": "What You Must Do When Invoked",
       "norm_label": "interpreter guard for subcommands"
     },
@@ -2268,7 +2268,7 @@
       "source_location": "L636",
       "_origin": "ast",
       "id": "opencode_skills_graphify_skill_for_update_and_cluster_only",
-      "community": 13,
+      "community": 3,
       "community_name": "What You Must Do When Invoked",
       "norm_label": "for --update and --cluster-only"
     },
@@ -2279,7 +2279,7 @@
       "source_location": "L642",
       "_origin": "ast",
       "id": "opencode_skills_graphify_skill_for_graphify_query",
-      "community": 13,
+      "community": 3,
       "community_name": "What You Must Do When Invoked",
       "norm_label": "for /graphify query"
     },
@@ -2290,7 +2290,7 @@
       "source_location": "L654",
       "_origin": "ast",
       "id": "opencode_skills_graphify_skill_for_graphify_add_and_watch",
-      "community": 13,
+      "community": 3,
       "community_name": "What You Must Do When Invoked",
       "norm_label": "for /graphify add and --watch"
     },
@@ -2301,7 +2301,7 @@
       "source_location": "L660",
       "_origin": "ast",
       "id": "opencode_skills_graphify_skill_for_the_commit_hook_and_native_claude_md_integration",
-      "community": 13,
+      "community": 3,
       "community_name": "What You Must Do When Invoked",
       "norm_label": "for the commit hook and native claude.md integration"
     },
@@ -2312,7 +2312,7 @@
       "source_location": "L666",
       "_origin": "ast",
       "id": "opencode_skills_graphify_skill_honesty_rules",
-      "community": 13,
+      "community": 3,
       "community_name": "What You Must Do When Invoked",
       "norm_label": "honesty rules"
     },
@@ -2323,8 +2323,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_add_watch",
-      "community": 18,
-      "community_name": "graphify reference: commit hook and native CLAUDE.md integration",
+      "community": 13,
+      "community_name": "graphify reference: add a URL and watch a folder",
       "norm_label": "add-watch.md"
     },
     {
@@ -2334,8 +2334,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_add_watch_graphify_reference_add_a_url_and_watch_a_folder",
-      "community": 18,
-      "community_name": "graphify reference: commit hook and native CLAUDE.md integration",
+      "community": 13,
+      "community_name": "graphify reference: add a URL and watch a folder",
       "norm_label": "graphify reference: add a url and watch a folder"
     },
     {
@@ -2345,8 +2345,8 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_add_watch_for_graphify_add",
-      "community": 18,
-      "community_name": "graphify reference: commit hook and native CLAUDE.md integration",
+      "community": 13,
+      "community_name": "graphify reference: add a URL and watch a folder",
       "norm_label": "for /graphify add"
     },
     {
@@ -2356,8 +2356,8 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_add_watch_for_watch",
-      "community": 18,
-      "community_name": "graphify reference: commit hook and native CLAUDE.md integration",
+      "community": 13,
+      "community_name": "graphify reference: add a URL and watch a folder",
       "norm_label": "for --watch"
     },
     {
@@ -2367,8 +2367,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_exports",
-      "community": 16,
-      "community_name": "graphify reference: query, path, explain",
+      "community": 10,
+      "community_name": "graphify reference: extra exports and benchmark",
       "norm_label": "exports.md"
     },
     {
@@ -2378,8 +2378,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_exports_graphify_reference_extra_exports_and_benchmark",
-      "community": 16,
-      "community_name": "graphify reference: query, path, explain",
+      "community": 10,
+      "community_name": "graphify reference: extra exports and benchmark",
       "norm_label": "graphify reference: extra exports and benchmark"
     },
     {
@@ -2389,8 +2389,8 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_exports_step_6b_wiki_only_if_wiki_flag",
-      "community": 16,
-      "community_name": "graphify reference: query, path, explain",
+      "community": 10,
+      "community_name": "graphify reference: extra exports and benchmark",
       "norm_label": "step 6b - wiki (only if --wiki flag)"
     },
     {
@@ -2400,8 +2400,8 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_exports_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag",
-      "community": 16,
-      "community_name": "graphify reference: query, path, explain",
+      "community": 10,
+      "community_name": "graphify reference: extra exports and benchmark",
       "norm_label": "step 7 - neo4j export (only if --neo4j or --neo4j-push flag)"
     },
     {
@@ -2411,8 +2411,8 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_exports_step_7a_falkordb_export_only_if_falkordb_or_falkordb_push_flag",
-      "community": 16,
-      "community_name": "graphify reference: query, path, explain",
+      "community": 10,
+      "community_name": "graphify reference: extra exports and benchmark",
       "norm_label": "step 7a - falkordb export (only if --falkordb or --falkordb-push flag)"
     },
     {
@@ -2422,8 +2422,8 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_exports_step_7b_svg_export_only_if_svg_flag",
-      "community": 16,
-      "community_name": "graphify reference: query, path, explain",
+      "community": 10,
+      "community_name": "graphify reference: extra exports and benchmark",
       "norm_label": "step 7b - svg export (only if --svg flag)"
     },
     {
@@ -2433,8 +2433,8 @@
       "source_location": "L53",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_exports_step_7c_graphml_export_only_if_graphml_flag",
-      "community": 16,
-      "community_name": "graphify reference: query, path, explain",
+      "community": 10,
+      "community_name": "graphify reference: extra exports and benchmark",
       "norm_label": "step 7c - graphml export (only if --graphml flag)"
     },
     {
@@ -2444,8 +2444,8 @@
       "source_location": "L59",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_exports_step_7d_mcp_server_only_if_mcp_flag",
-      "community": 16,
-      "community_name": "graphify reference: query, path, explain",
+      "community": 10,
+      "community_name": "graphify reference: extra exports and benchmark",
       "norm_label": "step 7d - mcp server (only if --mcp flag)"
     },
     {
@@ -2455,8 +2455,8 @@
       "source_location": "L79",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_exports_step_8_token_reduction_benchmark_only_if_total_words_5000",
-      "community": 16,
-      "community_name": "graphify reference: query, path, explain",
+      "community": 10,
+      "community_name": "graphify reference: extra exports and benchmark",
       "norm_label": "step 8 - token reduction benchmark (only if total_words > 5000)"
     },
     {
@@ -2466,7 +2466,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_extraction_spec",
-      "community": 25,
+      "community": 21,
       "community_name": "extraction-spec.md",
       "norm_label": "extraction-spec.md"
     },
@@ -2477,7 +2477,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_extraction_spec_graphify_reference_extraction_subagent_prompt",
-      "community": 25,
+      "community": 21,
       "community_name": "extraction-spec.md",
       "norm_label": "graphify reference: extraction subagent prompt"
     },
@@ -2488,8 +2488,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_github_and_merge",
-      "community": 22,
-      "community_name": "graphify reference: transcribe video and audio",
+      "community": 17,
+      "community_name": "graphify reference: GitHub clone and cross-repo merge",
       "norm_label": "github-and-merge.md"
     },
     {
@@ -2499,8 +2499,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_github_and_merge_graphify_reference_github_clone_and_cross_repo_merge",
-      "community": 22,
-      "community_name": "graphify reference: transcribe video and audio",
+      "community": 17,
+      "community_name": "graphify reference: GitHub clone and cross-repo merge",
       "norm_label": "graphify reference: github clone and cross-repo merge"
     },
     {
@@ -2510,8 +2510,8 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_github_and_merge_step_0_clone_github_repo_s_only_if_a_github_url_was_given",
-      "community": 22,
-      "community_name": "graphify reference: transcribe video and audio",
+      "community": 17,
+      "community_name": "graphify reference: GitHub clone and cross-repo merge",
       "norm_label": "step 0 - clone github repo(s) (only if a github url was given)"
     },
     {
@@ -2521,8 +2521,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_hooks",
-      "community": 19,
-      "community_name": "graphify reference: incremental update and cluster-only",
+      "community": 14,
+      "community_name": "graphify reference: commit hook and native CLAUDE.md integration",
       "norm_label": "hooks.md"
     },
     {
@@ -2532,8 +2532,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_hooks_graphify_reference_commit_hook_and_native_claude_md_integration",
-      "community": 19,
-      "community_name": "graphify reference: incremental update and cluster-only",
+      "community": 14,
+      "community_name": "graphify reference: commit hook and native CLAUDE.md integration",
       "norm_label": "graphify reference: commit hook and native claude.md integration"
     },
     {
@@ -2543,8 +2543,8 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_hooks_for_git_commit_hook",
-      "community": 19,
-      "community_name": "graphify reference: incremental update and cluster-only",
+      "community": 14,
+      "community_name": "graphify reference: commit hook and native CLAUDE.md integration",
       "norm_label": "for git commit hook"
     },
     {
@@ -2554,8 +2554,8 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_hooks_for_native_claude_md_integration",
-      "community": 19,
-      "community_name": "graphify reference: incremental update and cluster-only",
+      "community": 14,
+      "community_name": "graphify reference: commit hook and native CLAUDE.md integration",
       "norm_label": "for native claude.md integration"
     },
     {
@@ -2565,8 +2565,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_query",
-      "community": 17,
-      "community_name": "graphify reference: add a URL and watch a folder",
+      "community": 11,
+      "community_name": "graphify reference: query, path, explain",
       "norm_label": "query.md"
     },
     {
@@ -2576,8 +2576,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_query_graphify_reference_query_path_explain",
-      "community": 17,
-      "community_name": "graphify reference: add a URL and watch a folder",
+      "community": 11,
+      "community_name": "graphify reference: query, path, explain",
       "norm_label": "graphify reference: query, path, explain"
     },
     {
@@ -2587,8 +2587,8 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_query_step_0_constrained_query_expansion_required_before_traversal",
-      "community": 17,
-      "community_name": "graphify reference: add a URL and watch a folder",
+      "community": 11,
+      "community_name": "graphify reference: query, path, explain",
       "norm_label": "step 0 \u2014 constrained query expansion (required before traversal)"
     },
     {
@@ -2598,8 +2598,8 @@
       "source_location": "L61",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_query_step_1_traversal",
-      "community": 17,
-      "community_name": "graphify reference: add a URL and watch a folder",
+      "community": 11,
+      "community_name": "graphify reference: query, path, explain",
       "norm_label": "step 1 \u2014 traversal"
     },
     {
@@ -2609,8 +2609,8 @@
       "source_location": "L186",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_query_for_graphify_path",
-      "community": 17,
-      "community_name": "graphify reference: add a URL and watch a folder",
+      "community": 11,
+      "community_name": "graphify reference: query, path, explain",
       "norm_label": "for /graphify path"
     },
     {
@@ -2620,8 +2620,8 @@
       "source_location": "L254",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_query_for_graphify_explain",
-      "community": 17,
-      "community_name": "graphify reference: add a URL and watch a folder",
+      "community": 11,
+      "community_name": "graphify reference: query, path, explain",
       "norm_label": "for /graphify explain"
     },
     {
@@ -2631,8 +2631,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_transcribe",
-      "community": 23,
-      "community_name": "AGENTS.md",
+      "community": 18,
+      "community_name": "graphify reference: transcribe video and audio",
       "norm_label": "transcribe.md"
     },
     {
@@ -2642,8 +2642,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_transcribe_graphify_reference_transcribe_video_and_audio",
-      "community": 23,
-      "community_name": "AGENTS.md",
+      "community": 18,
+      "community_name": "graphify reference: transcribe video and audio",
       "norm_label": "graphify reference: transcribe video and audio"
     },
     {
@@ -2653,8 +2653,8 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_transcribe_step_2_5_transcribe_video_audio_files_only_if_video_files_detected",
-      "community": 23,
-      "community_name": "AGENTS.md",
+      "community": 18,
+      "community_name": "graphify reference: transcribe video and audio",
       "norm_label": "step 2.5 - transcribe video / audio files (only if video files detected)"
     },
     {
@@ -2664,8 +2664,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_update",
-      "community": 20,
-      "community_name": "graphify.js",
+      "community": 15,
+      "community_name": "graphify reference: incremental update and cluster-only",
       "norm_label": "update.md"
     },
     {
@@ -2675,8 +2675,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_update_graphify_reference_incremental_update_and_cluster_only",
-      "community": 20,
-      "community_name": "graphify.js",
+      "community": 15,
+      "community_name": "graphify reference: incremental update and cluster-only",
       "norm_label": "graphify reference: incremental update and cluster-only"
     },
     {
@@ -2686,8 +2686,8 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_update_for_update_incremental_re_extraction",
-      "community": 20,
-      "community_name": "graphify.js",
+      "community": 15,
+      "community_name": "graphify reference: incremental update and cluster-only",
       "norm_label": "for --update (incremental re-extraction)"
     },
     {
@@ -2697,8 +2697,8 @@
       "source_location": "L184",
       "_origin": "ast",
       "id": "opencode_skills_graphify_references_update_for_cluster_only",
-      "community": 20,
-      "community_name": "graphify.js",
+      "community": 15,
+      "community_name": "graphify reference: incremental update and cluster-only",
       "norm_label": "for --cluster-only"
     },
     {
@@ -2708,8 +2708,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "agents",
-      "community": 24,
-      "community_name": "extraction-spec.md",
+      "community": 19,
+      "community_name": "AGENTS.md",
       "norm_label": "agents.md"
     },
     {
@@ -2719,8 +2719,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "agents_graphify",
-      "community": 24,
-      "community_name": "extraction-spec.md",
+      "community": 19,
+      "community_name": "AGENTS.md",
       "norm_label": "graphify"
     },
     {
@@ -2730,8 +2730,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "graphify",
-      "community": 15,
-      "community_name": "graphify reference: extra exports and benchmark",
+      "community": 9,
+      "community_name": "Graphify",
       "norm_label": "graphify.md"
     },
     {
@@ -2741,8 +2741,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "graphify_graphify",
-      "community": 15,
-      "community_name": "graphify reference: extra exports and benchmark",
+      "community": 9,
+      "community_name": "Graphify",
       "norm_label": "graphify"
     },
     {
@@ -2752,8 +2752,8 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "graphify_what_is_committed",
-      "community": 15,
-      "community_name": "graphify reference: extra exports and benchmark",
+      "community": 9,
+      "community_name": "Graphify",
       "norm_label": "what is committed"
     },
     {
@@ -2763,8 +2763,8 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "graphify_what_is_not_committed_gitignored",
-      "community": 15,
-      "community_name": "graphify reference: extra exports and benchmark",
+      "community": 9,
+      "community_name": "Graphify",
       "norm_label": "what is not committed (gitignored)"
     },
     {
@@ -2774,8 +2774,8 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "graphify_how_the_graph_stays_current",
-      "community": 15,
-      "community_name": "graphify reference: extra exports and benchmark",
+      "community": 9,
+      "community_name": "Graphify",
       "norm_label": "how the graph stays current"
     },
     {
@@ -2785,8 +2785,8 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "graphify_how_to_query_the_graph",
-      "community": 15,
-      "community_name": "graphify reference: extra exports and benchmark",
+      "community": 9,
+      "community_name": "Graphify",
       "norm_label": "how to query the graph"
     },
     {
@@ -2796,8 +2796,8 @@
       "source_location": "L48",
       "_origin": "ast",
       "id": "graphify_how_to_refresh_manually",
-      "community": 15,
-      "community_name": "graphify reference: extra exports and benchmark",
+      "community": 9,
+      "community_name": "Graphify",
       "norm_label": "how to refresh manually"
     },
     {
@@ -2807,8 +2807,8 @@
       "source_location": "L61",
       "_origin": "ast",
       "id": "graphify_setup_already_done_for_reference",
-      "community": 15,
-      "community_name": "graphify reference: extra exports and benchmark",
+      "community": 9,
+      "community_name": "Graphify",
       "norm_label": "setup (already done \u2014 for reference)"
     },
     {
@@ -2818,8 +2818,8 @@
       "source_location": "L71",
       "_origin": "ast",
       "id": "graphify_notes",
-      "community": 15,
-      "community_name": "graphify reference: extra exports and benchmark",
+      "community": 9,
+      "community_name": "Graphify",
       "norm_label": "notes"
     },
     {
@@ -2829,8 +2829,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "readme",
-      "community": 14,
-      "community_name": "Graphify",
+      "community": 8,
+      "community_name": "netbox-circuit-maintenance",
       "norm_label": "readme.md"
     },
     {
@@ -2840,8 +2840,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "readme_netbox_circuit_maintenance",
-      "community": 14,
-      "community_name": "Graphify",
+      "community": 8,
+      "community_name": "netbox-circuit-maintenance",
       "norm_label": "netbox-circuit-maintenance"
     },
     {
@@ -2851,8 +2851,8 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "readme_features",
-      "community": 14,
-      "community_name": "Graphify",
+      "community": 8,
+      "community_name": "netbox-circuit-maintenance",
       "norm_label": "features"
     },
     {
@@ -2862,8 +2862,8 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "readme_installation",
-      "community": 14,
-      "community_name": "Graphify",
+      "community": 8,
+      "community_name": "netbox-circuit-maintenance",
       "norm_label": "installation"
     },
     {
@@ -2873,8 +2873,8 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "readme_configuration",
-      "community": 14,
-      "community_name": "Graphify",
+      "community": 8,
+      "community_name": "netbox-circuit-maintenance",
       "norm_label": "configuration"
     },
     {
@@ -2884,8 +2884,8 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "readme_usage",
-      "community": 14,
-      "community_name": "Graphify",
+      "community": 8,
+      "community_name": "netbox-circuit-maintenance",
       "norm_label": "usage"
     },
     {
@@ -2895,8 +2895,8 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "readme_creating_a_maintenance",
-      "community": 14,
-      "community_name": "Graphify",
+      "community": 8,
+      "community_name": "netbox-circuit-maintenance",
       "norm_label": "creating a maintenance"
     },
     {
@@ -2906,8 +2906,8 @@
       "source_location": "L71",
       "_origin": "ast",
       "id": "readme_rest_api",
-      "community": 14,
-      "community_name": "Graphify",
+      "community": 8,
+      "community_name": "netbox-circuit-maintenance",
       "norm_label": "rest api"
     },
     {
@@ -2917,8 +2917,8 @@
       "source_location": "L97",
       "_origin": "ast",
       "id": "readme_data_model",
-      "community": 14,
-      "community_name": "Graphify",
+      "community": 8,
+      "community_name": "netbox-circuit-maintenance",
       "norm_label": "data model"
     },
     {
@@ -2928,8 +2928,8 @@
       "source_location": "L99",
       "_origin": "ast",
       "id": "readme_circuitmaintenance",
-      "community": 14,
-      "community_name": "Graphify",
+      "community": 8,
+      "community_name": "netbox-circuit-maintenance",
       "norm_label": "circuitmaintenance"
     },
     {
@@ -2939,8 +2939,8 @@
       "source_location": "L115",
       "_origin": "ast",
       "id": "readme_development",
-      "community": 14,
-      "community_name": "Graphify",
+      "community": 8,
+      "community_name": "netbox-circuit-maintenance",
       "norm_label": "development"
     },
     {
@@ -2950,8 +2950,8 @@
       "source_location": "L134",
       "_origin": "ast",
       "id": "readme_license",
-      "community": 14,
-      "community_name": "Graphify",
+      "community": 8,
+      "community_name": "netbox-circuit-maintenance",
       "norm_label": "license"
     }
   ],
@@ -6917,5 +6917,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "30defbc2dda927748b3aac5669d58d4dcb9e3ab1"
+  "built_at_commit": "829398e516743003ad2c3d9a8aaddf95633a3579"
 }
