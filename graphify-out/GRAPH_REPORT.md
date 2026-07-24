@@ -1,4 +1,4 @@
-# Graph Report - .  (2026-07-23)
+# Graph Report - /home/hermes/netbox-circuit-maintenance  (2026-07-24)
 
 ## Corpus Check
 - cluster-only mode — file stats not available
@@ -7,11 +7,6 @@
 - 268 nodes · 354 edges · 26 communities (19 shown, 7 thin omitted)
 - Extraction: 84% EXTRACTED · 16% INFERRED · 0% AMBIGUOUS · INFERRED: 57 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
-
-## Graph Freshness
-- Built from commit: `bbfdfe5a`
-- Run `git rev-parse HEAD` and compare to check if the graph is stale.
-- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - CircuitMaintenanceModelTest
