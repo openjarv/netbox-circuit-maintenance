@@ -1,0 +1,5077 @@
+{
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "nodes": [
+    {
+      "id": "netbox_circuit_maintenance_init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_init_circuitmaintenanceconfig",
+      "label": "CircuitMaintenanceConfig",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/__init__.py",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "pluginconfig",
+      "label": "PluginConfig",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_api_init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/api/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_api_serializers",
+      "label": "serializers.py",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/api/serializers.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_api_serializers_circuitmaintenanceserializer",
+      "label": "CircuitMaintenanceSerializer",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/api/serializers.py",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "netboxmodelserializer",
+      "label": "NetBoxModelSerializer",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_api_serializers_meta",
+      "label": "Meta",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/api/serializers.py",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_api_serializers_rationale_8",
+      "label": "Serializer for CircuitMaintenance model.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/api/serializers.py",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_api_urls",
+      "label": "urls.py",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/api/urls.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_api_views",
+      "label": "views.py",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/api/views.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_api_views_circuitmaintenanceviewset",
+      "label": "CircuitMaintenanceViewSet",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/api/views.py",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "netboxmodelviewset",
+      "label": "NetBoxModelViewSet",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_api_views_rationale_8",
+      "label": "API viewset for CircuitMaintenance model.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/api/views.py",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_choices",
+      "label": "choices.py",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/choices.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_choices_maintenancestatuschoices",
+      "label": "MaintenanceStatusChoices",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/choices.py",
+      "source_location": "L4",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_choices_maintenanceimpactchoices",
+      "label": "MaintenanceImpactChoices",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/choices.py",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_filtersets",
+      "label": "filtersets.py",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/filtersets.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_filtersets_circuitmaintenancefilterset",
+      "label": "CircuitMaintenanceFilterSet",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/filtersets.py",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "netboxmodelfilterset",
+      "label": "NetBoxModelFilterSet",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_filtersets_meta",
+      "label": "Meta",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/filtersets.py",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_filtersets_circuitmaintenancefilterset_search",
+      "label": ".search()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/filtersets.py",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_filtersets_rationale_9",
+      "label": "FilterSet for CircuitMaintenance model.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/filtersets.py",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_forms",
+      "label": "forms.py",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/forms.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_forms_circuitmaintenanceform",
+      "label": "CircuitMaintenanceForm",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/forms.py",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_forms_meta",
+      "label": "Meta",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/forms.py",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_forms_circuitmaintenancefilterform",
+      "label": "CircuitMaintenanceFilterForm",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/forms.py",
+      "source_location": "L28",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_forms_rationale_8",
+      "label": "Form for creating/editing CircuitMaintenance objects.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/forms.py",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_forms_rationale_29",
+      "label": "Filter form for CircuitMaintenance list view.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/forms.py",
+      "source_location": "L29",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_graphql_init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/graphql/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_graphql_schema",
+      "label": "schema.py",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/graphql/schema.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_graphql_schema_circuitmaintenancetype",
+      "label": "CircuitMaintenanceType",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/graphql/schema.py",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "netboxobjecttype",
+      "label": "NetBoxObjectType",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_graphql_schema_meta",
+      "label": "Meta",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/graphql/schema.py",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_graphql_schema_query",
+      "label": "Query",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/graphql/schema.py",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_migrations_0001_initial",
+      "label": "0001_initial.py",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/migrations/0001_initial.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_migrations_0001_initial_migration",
+      "label": "Migration",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/migrations/0001_initial.py",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_migrations_init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/migrations/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_models",
+      "label": "models.py",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/models.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "label": "CircuitMaintenance",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/models.py",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "netboxmodel",
+      "label": "NetBoxModel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_models_meta",
+      "label": "Meta",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/models.py",
+      "source_location": "L64",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_models_circuitmaintenance_str",
+      "label": ".__str__()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/models.py",
+      "source_location": "L69",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_models_circuitmaintenance_get_absolute_url",
+      "label": ".get_absolute_url()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/models.py",
+      "source_location": "L72",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_models_rationale_10",
+      "label": "A planned maintenance window affecting one or more circuits.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/models.py",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_navigation",
+      "label": "navigation.py",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/navigation.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_search",
+      "label": "search.py",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/search.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_search_circuitmaintenanceindex",
+      "label": "CircuitMaintenanceIndex",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/search.py",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "searchindex",
+      "label": "SearchIndex",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tables",
+      "label": "tables.py",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tables.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tables_circuitmaintenancetable",
+      "label": "CircuitMaintenanceTable",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tables.py",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "netboxtable",
+      "label": "NetBoxTable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tables_meta",
+      "label": "Meta",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tables.py",
+      "source_location": "L18",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tables_rationale_7",
+      "label": "Table configuration for CircuitMaintenance list view.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tables.py",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_init_circuitmaintenancetestcase",
+      "label": "CircuitMaintenanceTestCase",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_init_py_testcase",
+      "label": "TestCase",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_init_circuitmaintenancetestcase_setuptestdata",
+      "label": ".setUpTestData()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_init_circuitmaintenancetestcase_create_maintenance",
+      "label": "._create_maintenance()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L33",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_init_rationale_1",
+      "label": "Test utilities for netbox_circuit_maintenance.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_init_rationale_12",
+      "label": "Base test case with helper methods for CircuitMaintenance tests.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_init_rationale_16",
+      "label": "Create shared test data used across test methods.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_init_rationale_34",
+      "label": "Helper to create a CircuitMaintenance with sensible defaults.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L34",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_api",
+      "label": "test_api.py",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest",
+      "label": "CircuitMaintenanceAPITest",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_list_maintenances",
+      "label": ".test_list_maintenances()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_create_maintenance",
+      "label": ".test_create_maintenance()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L22",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_retrieve_maintenance",
+      "label": ".test_retrieve_maintenance()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L38",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_update_maintenance",
+      "label": ".test_update_maintenance()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L46",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_delete_maintenance",
+      "label": ".test_delete_maintenance()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L56",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_filter_by_status",
+      "label": ".test_filter_by_status()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L65",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_filter_by_impact",
+      "label": ".test_filter_by_impact()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L75",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_search",
+      "label": ".test_search()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L85",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_required_fields_validation",
+      "label": ".test_required_fields_validation()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L98",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_api_rationale_1",
+      "label": "API tests for netbox_circuit_maintenance.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_api_rationale_14",
+      "label": "Tests for CircuitMaintenance REST API.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L14",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_api_rationale_17",
+      "label": "Test GET /api/plugins/circuit-maintenance/maintenances/.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_api_rationale_23",
+      "label": "Test POST /api/plugins/circuit-maintenance/maintenances/.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L23",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_api_rationale_39",
+      "label": "Test GET /api/plugins/circuit-maintenance/maintenances/{id}/.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L39",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_api_rationale_47",
+      "label": "Test PATCH /api/plugins/circuit-maintenance/maintenances/{id}/.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L47",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_api_rationale_57",
+      "label": "Test DELETE /api/plugins/circuit-maintenance/maintenances/{id}/.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L57",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_api_rationale_66",
+      "label": "Test filtering API results by status.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L66",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_api_rationale_76",
+      "label": "Test filtering API results by impact.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L76",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_api_rationale_86",
+      "label": "Test the search filter.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L86",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_api_rationale_99",
+      "label": "Test that required fields are enforced.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L99",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_choices",
+      "label": "test_choices.py",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest",
+      "label": "MaintenanceStatusChoicesTest",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_choices_py_testcase",
+      "label": "TestCase",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest_test_planned_exists",
+      "label": ".test_planned_exists()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest_test_scheduled_exists",
+      "label": ".test_scheduled_exists()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L14",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest_test_in_progress_exists",
+      "label": ".test_in_progress_exists()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest_test_completed_exists",
+      "label": ".test_completed_exists()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest_test_cancelled_exists",
+      "label": ".test_cancelled_exists()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L23",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest_test_choices_count",
+      "label": ".test_choices_count()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L26",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest_test_labels_are_human_readable",
+      "label": ".test_labels_are_human_readable()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L29",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest",
+      "label": "MaintenanceImpactChoicesTest",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L35",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest_test_degraded_exists",
+      "label": ".test_degraded_exists()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L38",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest_test_interrupted_exists",
+      "label": ".test_interrupted_exists()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L41",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest_test_no_impact_exists",
+      "label": ".test_no_impact_exists()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L44",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest_test_choices_count",
+      "label": ".test_choices_count()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L47",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest_test_labels_are_human_readable",
+      "label": ".test_labels_are_human_readable()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L50",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_choices_rationale_1",
+      "label": "Choices tests for netbox_circuit_maintenance.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_choices_rationale_9",
+      "label": "Tests for MaintenanceStatusChoices.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_choices_rationale_36",
+      "label": "Tests for MaintenanceImpactChoices.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L36",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models",
+      "label": "test_models.py",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest",
+      "label": "CircuitMaintenanceModelTest",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_create_maintenance",
+      "label": ".test_create_maintenance()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_str_representation",
+      "label": ".test_str_representation()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_default_status_is_planned",
+      "label": ".test_default_status_is_planned()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L29",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_default_impact_is_degraded",
+      "label": ".test_default_impact_is_degraded()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L39",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_all_status_choices",
+      "label": ".test_all_status_choices()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L49",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_all_impact_choices",
+      "label": ".test_all_impact_choices()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L56",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_optional_fields_blank",
+      "label": ".test_optional_fields_blank()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L63",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_circuit_foreign_key",
+      "label": ".test_circuit_foreign_key()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L79",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_circuit_cascade_delete",
+      "label": ".test_circuit_cascade_delete()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L85",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_ordering_by_start_time_desc",
+      "label": ".test_ordering_by_start_time_desc()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L93",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_related_name_maintenances",
+      "label": ".test_related_name_maintenances()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L109",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_get_status_display",
+      "label": ".test_get_status_display()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L114",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_get_impact_display",
+      "label": ".test_get_impact_display()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L119",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_name_max_length",
+      "label": ".test_name_max_length()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L124",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_ticket_id_max_length",
+      "label": ".test_ticket_id_max_length()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L130",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_provider_tracking_id_max_length",
+      "label": ".test_provider_tracking_id_max_length()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L135",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_contact_max_length",
+      "label": ".test_contact_max_length()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L140",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_verbose_name",
+      "label": ".test_verbose_name()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L145",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_verbose_name_plural",
+      "label": ".test_verbose_name_plural()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L152",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_rationale_1",
+      "label": "Model tests for netbox_circuit_maintenance.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_rationale_13",
+      "label": "Tests for CircuitMaintenance model.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_rationale_16",
+      "label": "Test creating a CircuitMaintenance record.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_rationale_25",
+      "label": "Test the string representation includes name and status.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L25",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_rationale_30",
+      "label": "Test that the default status is 'planned'.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L30",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_rationale_40",
+      "label": "Test that the default impact is 'degraded'.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L40",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_rationale_50",
+      "label": "Test that all status choices can be set.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L50",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_rationale_57",
+      "label": "Test that all impact choices can be set.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L57",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_rationale_64",
+      "label": "Test that optional fields can be left blank.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L64",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_rationale_80",
+      "label": "Test that maintenance links to a circuit.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L80",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_rationale_86",
+      "label": "Test that deleting a circuit cascades to its maintenances.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L86",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_rationale_94",
+      "label": "Test that maintenances are ordered by start_time descending.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L94",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_rationale_110",
+      "label": "Test that Circuit has a 'maintenances' reverse relation.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L110",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_rationale_115",
+      "label": "Test the human-readable status display.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L115",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_rationale_120",
+      "label": "Test the human-readable impact display.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L120",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_rationale_125",
+      "label": "Test that name field respects max_length.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L125",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_rationale_131",
+      "label": "Test that ticket_id field respects max_length.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L131",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_rationale_136",
+      "label": "Test that provider_tracking_id field respects max_length.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L136",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_rationale_141",
+      "label": "Test that contact field respects max_length.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L141",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_rationale_146",
+      "label": "Test model verbose name.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L146",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_models_rationale_153",
+      "label": "Test model verbose name plural.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L153",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_views",
+      "label": "test_views.py",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest",
+      "label": "CircuitMaintenanceViewTest",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_list_view",
+      "label": ".test_list_view()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_list_view_with_data",
+      "label": ".test_list_view_with_data()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_detail_view",
+      "label": ".test_detail_view()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L29",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_create_view_get",
+      "label": ".test_create_view_get()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L37",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_create_view_post",
+      "label": ".test_create_view_post()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L43",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_edit_view_get",
+      "label": ".test_edit_view_get()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L61",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_edit_view_post",
+      "label": ".test_edit_view_post()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L68",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_delete_view_get",
+      "label": ".test_delete_view_get()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L86",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_delete_view_post",
+      "label": ".test_delete_view_post()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L93",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_filter_by_status",
+      "label": ".test_filter_by_status()",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L102",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_views_rationale_1",
+      "label": "View tests for netbox_circuit_maintenance.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_views_rationale_13",
+      "label": "Tests for CircuitMaintenance views.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_views_rationale_16",
+      "label": "Test the maintenance list view returns 200.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_views_rationale_22",
+      "label": "Test the list view shows created maintenances.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L22",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_views_rationale_30",
+      "label": "Test the maintenance detail view returns 200.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L30",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_views_rationale_38",
+      "label": "Test the create view returns 200 on GET.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L38",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_views_rationale_44",
+      "label": "Test creating a maintenance via POST.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L44",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_views_rationale_62",
+      "label": "Test the edit view returns 200 on GET.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L62",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_views_rationale_69",
+      "label": "Test updating a maintenance via POST.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L69",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_views_rationale_87",
+      "label": "Test the delete view returns 200 on GET.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L87",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_views_rationale_94",
+      "label": "Test deleting a maintenance via POST.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L94",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_tests_test_views_rationale_103",
+      "label": "Test filtering maintenances by status.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L103",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_urls",
+      "label": "urls.py",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/urls.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_version",
+      "label": "version.py",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/version.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_version_rationale_1",
+      "label": "Version information for netbox-circuit-maintenance.",
+      "file_type": "rationale",
+      "source_file": "netbox_circuit_maintenance/version.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_views",
+      "label": "views.py",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_views_circuitmaintenancelistview",
+      "label": "CircuitMaintenanceListView",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_views_circuitmaintenanceview",
+      "label": "CircuitMaintenanceView",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L14",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_views_circuitmaintenanceeditview",
+      "label": "CircuitMaintenanceEditView",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L18",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_views_circuitmaintenancedeleteview",
+      "label": "CircuitMaintenanceDeleteView",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L23",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_views_circuitmaintenancebulkimportview",
+      "label": "CircuitMaintenanceBulkImportView",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L27",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_views_circuitmaintenancebulkeditview",
+      "label": "CircuitMaintenanceBulkEditView",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L32",
+      "_origin": "ast"
+    },
+    {
+      "id": "netbox_circuit_maintenance_views_circuitmaintenancebulkdeleteview",
+      "label": "CircuitMaintenanceBulkDeleteView",
+      "file_type": "code",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L37",
+      "_origin": "ast"
+    },
+    {
+      "id": "pkg_netbox_circuit_maintenance",
+      "label": "netbox-circuit-maintenance",
+      "file_type": "code",
+      "type": "package",
+      "ecosystem": "python",
+      "source_file": "pyproject.toml",
+      "source_location": "L1",
+      "version": "0.1.0",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme",
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_netbox_circuit_maintenance",
+      "label": "netbox-circuit-maintenance",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_features",
+      "label": "Features",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_installation",
+      "label": "Installation",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_configuration",
+      "label": "Configuration",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L42",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_usage",
+      "label": "Usage",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L54",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_creating_a_maintenance",
+      "label": "Creating a Maintenance",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L56",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_rest_api",
+      "label": "REST API",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L71",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_data_model",
+      "label": "Data Model",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L97",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_circuitmaintenance",
+      "label": "CircuitMaintenance",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L99",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_development",
+      "label": "Development",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L115",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_license",
+      "label": "License",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L134",
+      "_origin": "ast"
+    }
+  ],
+  "links": [
+    {
+      "source": "netbox_circuit_maintenance_init",
+      "target": "netbox_plugins",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_init",
+      "target": "netbox_circuit_maintenance_version",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/__init__.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_init",
+      "target": "netbox_circuit_maintenance_init_circuitmaintenanceconfig",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/__init__.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_init_circuitmaintenanceconfig",
+      "target": "pluginconfig",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/__init__.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_init",
+      "target": "netbox_circuit_maintenance_init_circuitmaintenanceconfig",
+      "relation": "indirect_call",
+      "context": "assignment",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/__init__.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_api_serializers",
+      "target": "rest_framework",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/api/serializers.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_api_serializers",
+      "target": "netbox_api_serializers",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/api/serializers.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_api_serializers",
+      "target": "netbox_circuit_maintenance_models",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/api/serializers.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_api_serializers",
+      "target": "netbox_circuit_maintenance_api_serializers_circuitmaintenanceserializer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/api/serializers.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_api_serializers_circuitmaintenanceserializer",
+      "target": "netboxmodelserializer",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/api/serializers.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_api_serializers",
+      "target": "netbox_circuit_maintenance_api_serializers_meta",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/api/serializers.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_api_serializers_rationale_8",
+      "target": "netbox_circuit_maintenance_api_serializers_circuitmaintenanceserializer",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/api/serializers.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_api_urls",
+      "target": "netbox_circuit_maintenance_api_views",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/api/urls.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_api_views",
+      "target": "netbox_api_viewsets",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/api/views.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_api_views",
+      "target": "netbox_circuit_maintenance_models",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/api/views.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_api_views",
+      "target": "netbox_circuit_maintenance_filtersets",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/api/views.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_api_views",
+      "target": "netbox_circuit_maintenance_api_serializers",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/api/views.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_api_views",
+      "target": "netbox_circuit_maintenance_api_views_circuitmaintenanceviewset",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/api/views.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_api_views_circuitmaintenanceviewset",
+      "target": "netboxmodelviewset",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/api/views.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_api_views_rationale_8",
+      "target": "netbox_circuit_maintenance_api_views_circuitmaintenanceviewset",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/api/views.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_choices",
+      "target": "django_db",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/choices.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_choices",
+      "target": "netbox_circuit_maintenance_choices_maintenancestatuschoices",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/choices.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_choices",
+      "target": "netbox_circuit_maintenance_choices_maintenanceimpactchoices",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/choices.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_filtersets",
+      "target": "django_db",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/filtersets.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_filtersets",
+      "target": "django_filters",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/filtersets.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_filtersets",
+      "target": "netbox_filtersets",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/filtersets.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_filtersets",
+      "target": "netbox_circuit_maintenance_models",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/filtersets.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_filtersets",
+      "target": "netbox_circuit_maintenance_filtersets_circuitmaintenancefilterset",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/filtersets.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_filtersets_circuitmaintenancefilterset",
+      "target": "netboxmodelfilterset",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/filtersets.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_filtersets",
+      "target": "netbox_circuit_maintenance_filtersets_meta",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/filtersets.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_filtersets_circuitmaintenancefilterset",
+      "target": "netbox_circuit_maintenance_filtersets_circuitmaintenancefilterset_search",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/filtersets.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_filtersets_rationale_9",
+      "target": "netbox_circuit_maintenance_filtersets_circuitmaintenancefilterset",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/filtersets.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_forms",
+      "target": "django",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/forms.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_forms",
+      "target": "netbox_circuit_maintenance_models",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/forms.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_forms",
+      "target": "netbox_circuit_maintenance_choices",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/forms.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_forms",
+      "target": "netbox_circuit_maintenance_forms_circuitmaintenanceform",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/forms.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_forms",
+      "target": "netbox_circuit_maintenance_forms_meta",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/forms.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_forms",
+      "target": "netbox_circuit_maintenance_forms_circuitmaintenancefilterform",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/forms.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_forms_rationale_8",
+      "target": "netbox_circuit_maintenance_forms_circuitmaintenanceform",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/forms.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_forms_rationale_29",
+      "target": "netbox_circuit_maintenance_forms_circuitmaintenancefilterform",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/forms.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_graphql_schema",
+      "target": "netbox_graphql_types",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/graphql/schema.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_graphql_schema",
+      "target": "netbox_circuit_maintenance_models",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/graphql/schema.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_graphql_schema",
+      "target": "netbox_circuit_maintenance_graphql_schema_circuitmaintenancetype",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/graphql/schema.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_graphql_schema_circuitmaintenancetype",
+      "target": "netboxobjecttype",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/graphql/schema.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_graphql_schema",
+      "target": "netbox_circuit_maintenance_graphql_schema_meta",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/graphql/schema.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_graphql_schema",
+      "target": "netbox_circuit_maintenance_graphql_schema_query",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/graphql/schema.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_migrations_0001_initial",
+      "target": "django_db",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/migrations/0001_initial.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_migrations_0001_initial",
+      "target": "django_db_models_deletion",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/migrations/0001_initial.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_migrations_0001_initial",
+      "target": "netbox_circuit_maintenance_migrations_0001_initial_migration",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/migrations/0001_initial.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_migrations_init",
+      "target": "netbox_circuit_maintenance_models",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/migrations/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_models",
+      "target": "django_db",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/models.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_models",
+      "target": "django_urls",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/models.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_models",
+      "target": "netbox_models",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/models.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_models",
+      "target": "netbox_models_fields",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/models.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_models",
+      "target": "netbox_circuit_maintenance_choices",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/models.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_models",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/models.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "target": "netboxmodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/models.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_models",
+      "target": "netbox_circuit_maintenance_models_meta",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/models.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance_str",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/models.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance_get_absolute_url",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/models.py",
+      "source_location": "L72",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_models_rationale_10",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/models.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_navigation",
+      "target": "django_utils_translation",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/navigation.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_navigation",
+      "target": "netbox_plugins",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/navigation.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_search",
+      "target": "netbox_search",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/search.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_search",
+      "target": "netbox_circuit_maintenance_models",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/search.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_search",
+      "target": "netbox_circuit_maintenance_search_circuitmaintenanceindex",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/search.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_search_circuitmaintenanceindex",
+      "target": "searchindex",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/search.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tables",
+      "target": "django_tables2",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tables.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tables",
+      "target": "netbox_tables",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tables.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tables",
+      "target": "netbox_circuit_maintenance_models",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tables.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tables",
+      "target": "netbox_circuit_maintenance_tables_circuitmaintenancetable",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tables.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tables_circuitmaintenancetable",
+      "target": "netboxtable",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tables.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tables",
+      "target": "netbox_circuit_maintenance_tables_meta",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tables.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tables_rationale_7",
+      "target": "netbox_circuit_maintenance_tables_circuitmaintenancetable",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tables.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_init",
+      "target": "django_test",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_init",
+      "target": "django_utils",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_init",
+      "target": "circuits_models",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_init",
+      "target": "netbox_circuit_maintenance_models",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_init",
+      "target": "netbox_circuit_maintenance_choices",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_init",
+      "target": "netbox_circuit_maintenance_tests_init_circuitmaintenancetestcase",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_init_circuitmaintenancetestcase",
+      "target": "netbox_circuit_maintenance_tests_init_py_testcase",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_init_circuitmaintenancetestcase",
+      "target": "netbox_circuit_maintenance_tests_init_circuitmaintenancetestcase_setuptestdata",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_init_circuitmaintenancetestcase",
+      "target": "netbox_circuit_maintenance_tests_init_circuitmaintenancetestcase_create_maintenance",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_init_rationale_1",
+      "target": "netbox_circuit_maintenance_tests_init",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_init_rationale_12",
+      "target": "netbox_circuit_maintenance_tests_init_circuitmaintenancetestcase",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_init_rationale_16",
+      "target": "netbox_circuit_maintenance_tests_init_circuitmaintenancetestcase_setuptestdata",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_init_rationale_34",
+      "target": "netbox_circuit_maintenance_tests_init_circuitmaintenancetestcase_create_maintenance",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api",
+      "target": "django_test",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api",
+      "target": "django_urls",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api",
+      "target": "rest_framework",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api",
+      "target": "circuits_models",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api",
+      "target": "netbox_circuit_maintenance_choices",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api",
+      "target": "netbox_circuit_maintenance_models",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api",
+      "target": "netbox_circuit_maintenance_tests",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api",
+      "target": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest",
+      "target": "netbox_circuit_maintenance_tests_init_circuitmaintenancetestcase",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest",
+      "target": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_list_maintenances",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest",
+      "target": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_create_maintenance",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest",
+      "target": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_retrieve_maintenance",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest",
+      "target": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_update_maintenance",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest",
+      "target": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_delete_maintenance",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest",
+      "target": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_filter_by_status",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest",
+      "target": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_filter_by_impact",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L75",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest",
+      "target": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_search",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest",
+      "target": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_required_fields_validation",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L98",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api_rationale_1",
+      "target": "netbox_circuit_maintenance_tests_test_api",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api_rationale_14",
+      "target": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api_rationale_17",
+      "target": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_list_maintenances",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api_rationale_23",
+      "target": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_create_maintenance",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api_rationale_39",
+      "target": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_retrieve_maintenance",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api_rationale_47",
+      "target": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_update_maintenance",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api_rationale_57",
+      "target": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_delete_maintenance",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api_rationale_66",
+      "target": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_filter_by_status",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api_rationale_76",
+      "target": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_filter_by_impact",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api_rationale_86",
+      "target": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_search",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api_rationale_99",
+      "target": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest_test_required_fields_validation",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L99",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices",
+      "target": "django_test",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices",
+      "target": "netbox_circuit_maintenance_choices",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices",
+      "target": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest",
+      "target": "netbox_circuit_maintenance_tests_test_choices_py_testcase",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest",
+      "target": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest_test_planned_exists",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest",
+      "target": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest_test_scheduled_exists",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest",
+      "target": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest_test_in_progress_exists",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest",
+      "target": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest_test_completed_exists",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest",
+      "target": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest_test_cancelled_exists",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest",
+      "target": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest_test_choices_count",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest",
+      "target": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest_test_labels_are_human_readable",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices",
+      "target": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest",
+      "target": "netbox_circuit_maintenance_tests_test_choices_py_testcase",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest",
+      "target": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest_test_degraded_exists",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest",
+      "target": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest_test_interrupted_exists",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest",
+      "target": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest_test_no_impact_exists",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest",
+      "target": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest_test_choices_count",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest",
+      "target": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest_test_labels_are_human_readable",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices_rationale_1",
+      "target": "netbox_circuit_maintenance_tests_test_choices",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices_rationale_9",
+      "target": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices_rationale_36",
+      "target": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models",
+      "target": "django_core_exceptions",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models",
+      "target": "django_db_utils",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models",
+      "target": "django_utils",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models",
+      "target": "netbox_circuit_maintenance_choices",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models",
+      "target": "netbox_circuit_maintenance_models",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models",
+      "target": "netbox_circuit_maintenance_tests",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest",
+      "target": "netbox_circuit_maintenance_tests_init_circuitmaintenancetestcase",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_create_maintenance",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_str_representation",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_default_status_is_planned",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_default_impact_is_degraded",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_all_status_choices",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_all_impact_choices",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_optional_fields_blank",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_circuit_foreign_key",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_circuit_cascade_delete",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_ordering_by_start_time_desc",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L93",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_related_name_maintenances",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L109",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_get_status_display",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L114",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_get_impact_display",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L119",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_name_max_length",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L124",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_ticket_id_max_length",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L130",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_provider_tracking_id_max_length",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L135",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_contact_max_length",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L140",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_verbose_name",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L145",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_verbose_name_plural",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L152",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_rationale_1",
+      "target": "netbox_circuit_maintenance_tests_test_models",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_rationale_13",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_rationale_16",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_create_maintenance",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_rationale_25",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_str_representation",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_rationale_30",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_default_status_is_planned",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_rationale_40",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_default_impact_is_degraded",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_rationale_50",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_all_status_choices",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_rationale_57",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_all_impact_choices",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_rationale_64",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_optional_fields_blank",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_rationale_80",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_circuit_foreign_key",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_rationale_86",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_circuit_cascade_delete",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_rationale_94",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_ordering_by_start_time_desc",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L94",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_rationale_110",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_related_name_maintenances",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L110",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_rationale_115",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_get_status_display",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L115",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_rationale_120",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_get_impact_display",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L120",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_rationale_125",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_name_max_length",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L125",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_rationale_131",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_ticket_id_max_length",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L131",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_rationale_136",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_provider_tracking_id_max_length",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L136",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_rationale_141",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_contact_max_length",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L141",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_rationale_146",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_verbose_name",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L146",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_rationale_153",
+      "target": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_verbose_name_plural",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L153",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views",
+      "target": "django_test",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views",
+      "target": "django_urls",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views",
+      "target": "circuits_models",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views",
+      "target": "netbox_circuit_maintenance_choices",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views",
+      "target": "netbox_circuit_maintenance_models",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views",
+      "target": "netbox_circuit_maintenance_tests",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views",
+      "target": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest",
+      "target": "netbox_circuit_maintenance_tests_init_circuitmaintenancetestcase",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest",
+      "target": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_list_view",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest",
+      "target": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_list_view_with_data",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest",
+      "target": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_detail_view",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest",
+      "target": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_create_view_get",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest",
+      "target": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_create_view_post",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest",
+      "target": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_edit_view_get",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest",
+      "target": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_edit_view_post",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest",
+      "target": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_delete_view_get",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest",
+      "target": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_delete_view_post",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L93",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest",
+      "target": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_filter_by_status",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L102",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views_rationale_1",
+      "target": "netbox_circuit_maintenance_tests_test_views",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views_rationale_13",
+      "target": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views_rationale_16",
+      "target": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_list_view",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views_rationale_22",
+      "target": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_list_view_with_data",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views_rationale_30",
+      "target": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_detail_view",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views_rationale_38",
+      "target": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_create_view_get",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views_rationale_44",
+      "target": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_create_view_post",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views_rationale_62",
+      "target": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_edit_view_get",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views_rationale_69",
+      "target": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_edit_view_post",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views_rationale_87",
+      "target": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_delete_view_get",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views_rationale_94",
+      "target": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_delete_view_post",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L94",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views_rationale_103",
+      "target": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest_test_filter_by_status",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L103",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_urls",
+      "target": "django_urls",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/urls.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_urls",
+      "target": "netbox_circuit_maintenance",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/urls.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_version_rationale_1",
+      "target": "netbox_circuit_maintenance_version",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/version.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views",
+      "target": "netbox_views",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views",
+      "target": "netbox_circuit_maintenance",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views",
+      "target": "netbox_circuit_maintenance_models",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views",
+      "target": "netbox_circuit_maintenance_tables",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views",
+      "target": "netbox_circuit_maintenance_views_circuitmaintenancelistview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views",
+      "target": "netbox_circuit_maintenance_views_circuitmaintenanceview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views",
+      "target": "netbox_circuit_maintenance_views_circuitmaintenanceeditview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views",
+      "target": "netbox_circuit_maintenance_views_circuitmaintenancedeleteview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views",
+      "target": "netbox_circuit_maintenance_views_circuitmaintenancebulkimportview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views",
+      "target": "netbox_circuit_maintenance_views_circuitmaintenancebulkeditview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views",
+      "target": "netbox_circuit_maintenance_views_circuitmaintenancebulkdeleteview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "readme_netbox_circuit_maintenance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_netbox_circuit_maintenance",
+      "target": "readme_features",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_netbox_circuit_maintenance",
+      "target": "readme_installation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_netbox_circuit_maintenance",
+      "target": "readme_configuration",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_netbox_circuit_maintenance",
+      "target": "readme_usage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_usage",
+      "target": "readme_creating_a_maintenance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_usage",
+      "target": "readme_rest_api",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_netbox_circuit_maintenance",
+      "target": "readme_data_model",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L97",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_data_model",
+      "target": "readme_circuitmaintenance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L99",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_netbox_circuit_maintenance",
+      "target": "readme_development",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L115",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_netbox_circuit_maintenance",
+      "target": "readme_license",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L134",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "home_hermes_netbox_circuit_maintenance_license_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L136",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_init",
+      "target": "netbox_circuit_maintenance_version",
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/__init__.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_migrations_init",
+      "target": "netbox_circuit_maintenance_models",
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/migrations/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_init",
+      "target": "netbox_circuit_maintenance_models",
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_init",
+      "target": "netbox_circuit_maintenance_choices",
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_api_serializers",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/api/serializers.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_api_urls",
+      "target": "netbox_circuit_maintenance_api_views_circuitmaintenanceviewset",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/api/urls.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_api_views",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/api/views.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_api_views",
+      "target": "netbox_circuit_maintenance_filtersets_circuitmaintenancefilterset",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/api/views.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_api_views",
+      "target": "netbox_circuit_maintenance_api_serializers_circuitmaintenanceserializer",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/api/views.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_filtersets",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/filtersets.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_forms",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/forms.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_forms",
+      "target": "netbox_circuit_maintenance_choices_maintenancestatuschoices",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/forms.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_forms",
+      "target": "netbox_circuit_maintenance_choices_maintenanceimpactchoices",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/forms.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_graphql_schema",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/graphql/schema.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_migrations_init",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/migrations/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_models",
+      "target": "netbox_circuit_maintenance_choices_maintenancestatuschoices",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/models.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_models",
+      "target": "netbox_circuit_maintenance_choices_maintenanceimpactchoices",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/models.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_search",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/search.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tables",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tables.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_init",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_init",
+      "target": "netbox_circuit_maintenance_choices_maintenancestatuschoices",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_init",
+      "target": "netbox_circuit_maintenance_choices_maintenanceimpactchoices",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api",
+      "target": "netbox_circuit_maintenance_choices_maintenancestatuschoices",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api",
+      "target": "netbox_circuit_maintenance_choices_maintenanceimpactchoices",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api",
+      "target": "netbox_circuit_maintenance_tests_init_circuitmaintenancetestcase",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices",
+      "target": "netbox_circuit_maintenance_choices_maintenancestatuschoices",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices",
+      "target": "netbox_circuit_maintenance_choices_maintenanceimpactchoices",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models",
+      "target": "netbox_circuit_maintenance_choices_maintenancestatuschoices",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models",
+      "target": "netbox_circuit_maintenance_choices_maintenanceimpactchoices",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models",
+      "target": "netbox_circuit_maintenance_tests_init_circuitmaintenancetestcase",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views",
+      "target": "netbox_circuit_maintenance_choices_maintenancestatuschoices",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views",
+      "target": "netbox_circuit_maintenance_choices_maintenanceimpactchoices",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views",
+      "target": "netbox_circuit_maintenance_tests_init_circuitmaintenancetestcase",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views",
+      "target": "netbox_circuit_maintenance_tables_circuitmaintenancetable",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_urls",
+      "target": "netbox_circuit_maintenance_views",
+      "relation": "imports_from",
+      "context": "submodule_import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/urls.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views",
+      "target": "netbox_circuit_maintenance_forms",
+      "relation": "imports_from",
+      "context": "submodule_import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views",
+      "target": "netbox_circuit_maintenance_filtersets",
+      "relation": "imports_from",
+      "context": "submodule_import",
+      "confidence": "EXTRACTED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_api_serializers_circuitmaintenanceserializer",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/api/serializers.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_api_serializers_meta",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/api/serializers.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_api_views_circuitmaintenanceviewset",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/api/views.py",
+      "source_location": "L2",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_api_views_circuitmaintenanceviewset",
+      "target": "netbox_circuit_maintenance_filtersets_circuitmaintenancefilterset",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/api/views.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_api_views_circuitmaintenanceviewset",
+      "target": "netbox_circuit_maintenance_api_serializers_circuitmaintenanceserializer",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/api/views.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_filtersets_circuitmaintenancefilterset",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/filtersets.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_filtersets_meta",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/filtersets.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_forms_circuitmaintenanceform",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/forms.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_forms_meta",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/forms.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_forms_circuitmaintenancefilterform",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/forms.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_forms_circuitmaintenanceform",
+      "target": "netbox_circuit_maintenance_choices_maintenancestatuschoices",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/forms.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_forms_meta",
+      "target": "netbox_circuit_maintenance_choices_maintenancestatuschoices",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/forms.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_forms_circuitmaintenancefilterform",
+      "target": "netbox_circuit_maintenance_choices_maintenancestatuschoices",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/forms.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_forms_circuitmaintenanceform",
+      "target": "netbox_circuit_maintenance_choices_maintenanceimpactchoices",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/forms.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_forms_meta",
+      "target": "netbox_circuit_maintenance_choices_maintenanceimpactchoices",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/forms.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_forms_circuitmaintenancefilterform",
+      "target": "netbox_circuit_maintenance_choices_maintenanceimpactchoices",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/forms.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_graphql_schema_circuitmaintenancetype",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/graphql/schema.py",
+      "source_location": "L2",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_graphql_schema_meta",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/graphql/schema.py",
+      "source_location": "L2",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_graphql_schema_query",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/graphql/schema.py",
+      "source_location": "L2",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "target": "netbox_circuit_maintenance_choices_maintenancestatuschoices",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/models.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_models_meta",
+      "target": "netbox_circuit_maintenance_choices_maintenancestatuschoices",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/models.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "target": "netbox_circuit_maintenance_choices_maintenanceimpactchoices",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/models.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_models_meta",
+      "target": "netbox_circuit_maintenance_choices_maintenanceimpactchoices",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/models.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_search_circuitmaintenanceindex",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/search.py",
+      "source_location": "L2",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tables_circuitmaintenancetable",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/tables.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tables_meta",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/tables.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_init_circuitmaintenancetestcase",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L7",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_init_circuitmaintenancetestcase",
+      "target": "netbox_circuit_maintenance_choices_maintenancestatuschoices",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L8",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_init_circuitmaintenancetestcase",
+      "target": "netbox_circuit_maintenance_choices_maintenanceimpactchoices",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/tests/__init__.py",
+      "source_location": "L8",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest",
+      "target": "netbox_circuit_maintenance_choices_maintenancestatuschoices",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L8",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest",
+      "target": "netbox_circuit_maintenance_choices_maintenanceimpactchoices",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L8",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_api_circuitmaintenanceapitest",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/tests/test_api.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest",
+      "target": "netbox_circuit_maintenance_choices_maintenancestatuschoices",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest",
+      "target": "netbox_circuit_maintenance_choices_maintenancestatuschoices",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices_maintenancestatuschoicestest",
+      "target": "netbox_circuit_maintenance_choices_maintenanceimpactchoices",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_choices_maintenanceimpactchoicestest",
+      "target": "netbox_circuit_maintenance_choices_maintenanceimpactchoices",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/tests/test_choices.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest",
+      "target": "netbox_circuit_maintenance_choices_maintenancestatuschoices",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L7",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest",
+      "target": "netbox_circuit_maintenance_choices_maintenanceimpactchoices",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L7",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L8",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest",
+      "target": "netbox_circuit_maintenance_choices_maintenancestatuschoices",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L7",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest",
+      "target": "netbox_circuit_maintenance_choices_maintenanceimpactchoices",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L7",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_views_circuitmaintenanceviewtest",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/tests/test_views.py",
+      "source_location": "L8",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views_circuitmaintenancelistview",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views_circuitmaintenanceview",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views_circuitmaintenanceeditview",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views_circuitmaintenancedeleteview",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views_circuitmaintenancebulkimportview",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views_circuitmaintenancebulkeditview",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views_circuitmaintenancebulkdeleteview",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views_circuitmaintenancelistview",
+      "target": "netbox_circuit_maintenance_tables_circuitmaintenancetable",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views_circuitmaintenanceview",
+      "target": "netbox_circuit_maintenance_tables_circuitmaintenancetable",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views_circuitmaintenanceeditview",
+      "target": "netbox_circuit_maintenance_tables_circuitmaintenancetable",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views_circuitmaintenancedeleteview",
+      "target": "netbox_circuit_maintenance_tables_circuitmaintenancetable",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views_circuitmaintenancebulkimportview",
+      "target": "netbox_circuit_maintenance_tables_circuitmaintenancetable",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views_circuitmaintenancebulkeditview",
+      "target": "netbox_circuit_maintenance_tables_circuitmaintenancetable",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_views_circuitmaintenancebulkdeleteview",
+      "target": "netbox_circuit_maintenance_tables_circuitmaintenancetable",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "netbox_circuit_maintenance/views.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_default_status_is_planned",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "netbox_circuit_maintenance_tests_test_models_circuitmaintenancemodeltest_test_default_impact_is_degraded",
+      "target": "netbox_circuit_maintenance_models_circuitmaintenance",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "netbox_circuit_maintenance/tests/test_models.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast"
+    }
+  ]
+}
