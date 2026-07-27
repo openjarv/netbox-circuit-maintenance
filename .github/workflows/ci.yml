@@ -1,0 +1,41 @@
+name: CI
+
+# CI for openjarv/netbox-circuit-maintenance.
+#
+# Currently a single lane: the graphify-out/ absolute-path scrub guard
+# (ATW-125 / ATW-112 gate). The plugin's own lint/test/publish workflow is
+# not restored on main yet (it was removed in 7e9abb3 pending workflow
+# scope); this workflow only needs `bash`, so it runs under the default
+# `pull_request` / `push` trigger without requiring a workflow-scoped
+# token on first push.
+#
+# Sibling lane: netbox-pyats .github/workflows/ci.yml `graphify-scrub-guard`
+# job. Kept in sync so the nightly routine (ATW-171) can invoke
+# scripts/graphify-scrub-guard.sh in either Atw plugin repo without a
+# missing-script failure (ATW-174).
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  graphify-scrub-guard:
+    # Build-time guard against absolute home-path leakage in committed
+    # graphify-out/ artifacts (the PR #41 regression class, ATW-112 gate).
+    # Runs scripts/graphify-scrub-guard.sh in check mode on every PR/push so
+    # a leaked GRAPH_REPORT.md or graph.html <title> fails CI before merge.
+    # The nightly refresh routine also runs this guard locally before commit;
+    # this lane is the structural backstop. Refs: ATW-174, ATW-125, ATW-112,
+    # ATW-121, ATW-171.
+    name: Graphify scrub guard
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run scrub guard (check mode)
+        run: bash scripts/graphify-scrub-guard.sh
