@@ -138,5 +138,20 @@
     "mtime": 1783031152.09243,
     "ast_hash": "55492faf2760b9cc0cd447a864a07f19",
     "semantic_hash": ""
+  },
+  "scripts/graphify-scrub-guard.sh": {
+    "mtime": 1785338753.8840597,
+    "ast_hash": "ccbce871bdea4a233f3ef03ffb040408",
+    "semantic_hash": ""
+  },
+  ".github/PULL_REQUEST_TEMPLATE.md": {
+    "mtime": 1785338753.8760593,
+    "ast_hash": "f97b3b0bff6bc53f39b0576d4a429059",
+    "semantic_hash": ""
+  },
+  ".github/workflows/ci.yml": {
+    "mtime": 1785338753.8790596,
+    "ast_hash": "50267d1a7fe2e923e868fde4ac143e51",
+    "semantic_hash": ""
   }
 }
