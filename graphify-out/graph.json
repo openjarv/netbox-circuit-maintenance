@@ -10,7 +10,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_init",
-      "community": 9,
+      "community": 10,
       "community_name": "__init__.py",
       "norm_label": "__init__.py"
     },
@@ -21,7 +21,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_init_circuitmaintenanceconfig",
-      "community": 9,
+      "community": 10,
       "community_name": "__init__.py",
       "norm_label": "circuitmaintenanceconfig"
     },
@@ -32,7 +32,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "pluginconfig",
-      "community": 9,
+      "community": 10,
       "community_name": "__init__.py",
       "norm_label": "pluginconfig"
     },
@@ -43,7 +43,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_api_init",
-      "community": 12,
+      "community": 13,
       "community_name": "__init__.py",
       "norm_label": "__init__.py"
     },
@@ -329,7 +329,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_graphql_init",
-      "community": 13,
+      "community": 14,
       "community_name": "__init__.py",
       "norm_label": "__init__.py"
     },
@@ -395,7 +395,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_migrations_0001_initial",
-      "community": 11,
+      "community": 12,
       "community_name": "0001_initial.py",
       "norm_label": "0001_initial.py"
     },
@@ -406,7 +406,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_migrations_0001_initial_migration",
-      "community": 11,
+      "community": 12,
       "community_name": "0001_initial.py",
       "norm_label": "migration"
     },
@@ -505,7 +505,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_navigation",
-      "community": 14,
+      "community": 15,
       "community_name": "navigation.py",
       "norm_label": "navigation.py"
     },
@@ -1891,7 +1891,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_version",
-      "community": 9,
+      "community": 10,
       "community_name": "__init__.py",
       "norm_label": "version.py"
     },
@@ -1902,7 +1902,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "netbox_circuit_maintenance_version_rationale_1",
-      "community": 9,
+      "community": 10,
       "community_name": "__init__.py",
       "norm_label": "version information for netbox-circuit-maintenance."
     },
@@ -2004,9 +2004,144 @@
       "version": "0.1.0",
       "_origin": "ast",
       "id": "pkg_netbox_circuit_maintenance",
-      "community": 15,
+      "community": 16,
       "community_name": "netbox-circuit-maintenance",
       "norm_label": "netbox-circuit-maintenance"
+    },
+    {
+      "label": "dev-worktree.sh",
+      "file_type": "code",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "scripts_dev_worktree",
+      "community": 8,
+      "community_name": "dev-worktree.sh",
+      "norm_label": "dev-worktree.sh"
+    },
+    {
+      "label": "dev-worktree.sh script",
+      "file_type": "code",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "scripts_dev_worktree_sh__entry",
+      "community": 8,
+      "community_name": "dev-worktree.sh",
+      "norm_label": "dev-worktree.sh script"
+    },
+    {
+      "label": "die()",
+      "file_type": "code",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L73",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_dev_worktree_die",
+      "community": 8,
+      "community_name": "dev-worktree.sh",
+      "norm_label": "die()"
+    },
+    {
+      "label": "usage()",
+      "file_type": "code",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L75",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_dev_worktree_usage",
+      "community": 8,
+      "community_name": "dev-worktree.sh",
+      "norm_label": "usage()"
+    },
+    {
+      "label": "cmd_add()",
+      "file_type": "code",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L95",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_dev_worktree_cmd_add",
+      "community": 8,
+      "community_name": "dev-worktree.sh",
+      "norm_label": "cmd_add()"
+    },
+    {
+      "label": "cmd_up()",
+      "file_type": "code",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L248",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_dev_worktree_cmd_up",
+      "community": 8,
+      "community_name": "dev-worktree.sh",
+      "norm_label": "cmd_up()"
+    },
+    {
+      "label": "cmd_remove()",
+      "file_type": "code",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L263",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_dev_worktree_cmd_remove",
+      "community": 8,
+      "community_name": "dev-worktree.sh",
+      "norm_label": "cmd_remove()"
+    },
+    {
+      "label": "cmd_cleanup()",
+      "file_type": "code",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L281",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_dev_worktree_cmd_cleanup",
+      "community": 8,
+      "community_name": "dev-worktree.sh",
+      "norm_label": "cmd_cleanup()"
+    },
+    {
+      "label": "cmd_audit()",
+      "file_type": "code",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L314",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_dev_worktree_cmd_audit",
+      "community": 8,
+      "community_name": "dev-worktree.sh",
+      "norm_label": "cmd_audit()"
     },
     {
       "label": "graphify-scrub-guard.sh",
@@ -2019,7 +2154,7 @@
       },
       "_origin": "ast",
       "id": "scripts_graphify_scrub_guard",
-      "community": 10,
+      "community": 11,
       "community_name": "graphify-scrub-guard.sh",
       "norm_label": "graphify-scrub-guard.sh"
     },
@@ -2034,7 +2169,7 @@
       },
       "_origin": "ast",
       "id": "scripts_graphify_scrub_guard_sh__entry",
-      "community": 10,
+      "community": 11,
       "community_name": "graphify-scrub-guard.sh",
       "norm_label": "graphify-scrub-guard.sh script"
     },
@@ -2049,7 +2184,7 @@
       },
       "_origin": "ast",
       "id": "scripts_graphify_scrub_guard_leaked_files",
-      "community": 10,
+      "community": 11,
       "community_name": "graphify-scrub-guard.sh",
       "norm_label": "leaked_files()"
     },
@@ -2060,7 +2195,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "github_pull_request_template",
-      "community": 8,
+      "community": 9,
       "community_name": "PULL_REQUEST_TEMPLATE.md",
       "norm_label": "pull_request_template.md"
     },
@@ -2071,7 +2206,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "github_pull_request_template_summary",
-      "community": 8,
+      "community": 9,
       "community_name": "PULL_REQUEST_TEMPLATE.md",
       "norm_label": "summary"
     },
@@ -2082,7 +2217,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "github_pull_request_template_linked_issue",
-      "community": 8,
+      "community": 9,
       "community_name": "PULL_REQUEST_TEMPLATE.md",
       "norm_label": "linked issue"
     },
@@ -2093,7 +2228,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "github_pull_request_template_changes",
-      "community": 8,
+      "community": 9,
       "community_name": "PULL_REQUEST_TEMPLATE.md",
       "norm_label": "changes"
     },
@@ -2104,7 +2239,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "github_pull_request_template_verification",
-      "community": 8,
+      "community": 9,
       "community_name": "PULL_REQUEST_TEMPLATE.md",
       "norm_label": "verification"
     },
@@ -2115,7 +2250,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "github_pull_request_template_notes_for_reviewers",
-      "community": 8,
+      "community": 9,
       "community_name": "PULL_REQUEST_TEMPLATE.md",
       "norm_label": "notes for reviewers"
     },
@@ -2126,7 +2261,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "github_pull_request_template_closing_checklist",
-      "community": 8,
+      "community": 9,
       "community_name": "PULL_REQUEST_TEMPLATE.md",
       "norm_label": "closing checklist"
     },
@@ -5423,6 +5558,214 @@
     {
       "relation": "defines",
       "confidence": "EXTRACTED",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L95",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_dev_worktree",
+      "target": "scripts_dev_worktree_cmd_add",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L314",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_dev_worktree",
+      "target": "scripts_dev_worktree_cmd_audit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L281",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_dev_worktree",
+      "target": "scripts_dev_worktree_cmd_cleanup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L263",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_dev_worktree",
+      "target": "scripts_dev_worktree_cmd_remove",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L248",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_dev_worktree",
+      "target": "scripts_dev_worktree_cmd_up",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L73",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_dev_worktree",
+      "target": "scripts_dev_worktree_die",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_dev_worktree",
+      "target": "scripts_dev_worktree_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L75",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "scripts_dev_worktree",
+      "target": "scripts_dev_worktree_usage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L351",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "scripts_dev_worktree_sh__entry",
+      "target": "scripts_dev_worktree_cmd_add",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L355",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "scripts_dev_worktree_sh__entry",
+      "target": "scripts_dev_worktree_cmd_audit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L354",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "scripts_dev_worktree_sh__entry",
+      "target": "scripts_dev_worktree_cmd_cleanup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L353",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "scripts_dev_worktree_sh__entry",
+      "target": "scripts_dev_worktree_cmd_remove",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L352",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "scripts_dev_worktree_sh__entry",
+      "target": "scripts_dev_worktree_cmd_up",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L348",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "scripts_dev_worktree_sh__entry",
+      "target": "scripts_dev_worktree_usage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L108",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "scripts_dev_worktree_cmd_add",
+      "target": "scripts_dev_worktree_die",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L268",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "scripts_dev_worktree_cmd_remove",
+      "target": "scripts_dev_worktree_die",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L97",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "scripts_dev_worktree_cmd_add",
+      "target": "scripts_dev_worktree_usage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/dev-worktree.sh",
+      "source_location": "L265",
+      "weight": 1.0,
+      "context": "call",
+      "_origin": "ast",
+      "source": "scripts_dev_worktree_cmd_remove",
+      "target": "scripts_dev_worktree_usage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
       "source_file": "scripts/graphify-scrub-guard.sh",
       "source_location": "L104",
       "weight": 1.0,
@@ -5631,5 +5974,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "4ecc9a7556f96264f60e1d09fb856053bc7f49f0"
+  "built_at_commit": "8c7a5ec19c3d178e2acd2d609dcd6e650dcd950d"
 }

@@ -153,5 +153,10 @@
     "mtime": 1785338753.8790596,
     "ast_hash": "50267d1a7fe2e923e868fde4ac143e51",
     "semantic_hash": ""
+  },
+  "scripts/dev-worktree.sh": {
+    "mtime": 1785402050.2318645,
+    "ast_hash": "abb3168afc639cfb509555258f860409",
+    "semantic_hash": ""
   }
 }

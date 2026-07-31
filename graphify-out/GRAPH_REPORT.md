@@ -1,15 +1,15 @@
-# Graph Report - .  (2026-07-30)
+# Graph Report - .  (2026-07-31)
 
 ## Corpus Check
 - cluster-only mode — file stats not available
 
 ## Summary
-- 204 nodes · 300 edges · 16 communities (13 shown, 3 thin omitted)
-- Extraction: 81% EXTRACTED · 19% INFERRED · 0% AMBIGUOUS · INFERRED: 57 edges (avg confidence: 0.5)
+- 213 nodes · 318 edges · 17 communities (14 shown, 3 thin omitted)
+- Extraction: 82% EXTRACTED · 18% INFERRED · 0% AMBIGUOUS · INFERRED: 57 edges (avg confidence: 0.5)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `4ecc9a75`
+- Built from commit: `8c7a5ec1`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -22,6 +22,7 @@
 - MaintenanceStatusChoicesTest
 - views.py
 - netbox-circuit-maintenance
+- dev-worktree.sh
 - PULL_REQUEST_TEMPLATE.md
 - __init__.py
 - graphify-scrub-guard.sh
@@ -55,7 +56,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (16 total, 3 thin omitted)
+## Communities (17 total, 3 thin omitted)
 
 ### Community 0 - "CircuitMaintenanceModelTest"
 Cohesion: 0.05
@@ -89,11 +90,15 @@ Nodes (10): CircuitMaintenanceSerializer, Meta, Serializer for CircuitMaintenanc
 Cohesion: 0.17
 Nodes (11): CircuitMaintenance, Configuration, Creating a Maintenance, Data Model, Development, Features, Installation, License (+3 more)
 
-### Community 8 - "PULL_REQUEST_TEMPLATE.md"
+### Community 8 - "dev-worktree.sh"
+Cohesion: 0.50
+Nodes (8): cmd_add(), cmd_audit(), cmd_cleanup(), cmd_remove(), cmd_up(), die(), dev-worktree.sh script, usage()
+
+### Community 9 - "PULL_REQUEST_TEMPLATE.md"
 Cohesion: 0.29
 Nodes (6): Changes, Closing checklist, Linked issue, Notes for reviewers, Summary, Verification
 
-### Community 9 - "__init__.py"
+### Community 10 - "__init__.py"
 Cohesion: 0.40
 Nodes (3): CircuitMaintenanceConfig, Version information for netbox-circuit-maintenance., PluginConfig
 
@@ -106,11 +111,11 @@ Nodes (3): CircuitMaintenanceConfig, Version information for netbox-circuit-main
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `CircuitMaintenance` connect `CircuitMaintenance` to `CircuitMaintenanceModelTest`, `MaintenanceImpactChoices`, `CircuitMaintenanceViewTest`, `CircuitMaintenanceAPITest`, `views.py`?**
-  _High betweenness centrality (0.344) - this node is a cross-community bridge._
+  _High betweenness centrality (0.315) - this node is a cross-community bridge._
 - **Why does `CircuitMaintenanceModelTest` connect `CircuitMaintenanceModelTest` to `CircuitMaintenance`, `MaintenanceImpactChoices`?**
-  _High betweenness centrality (0.262) - this node is a cross-community bridge._
+  _High betweenness centrality (0.240) - this node is a cross-community bridge._
 - **Why does `CircuitMaintenanceViewTest` connect `CircuitMaintenanceViewTest` to `CircuitMaintenance`, `MaintenanceImpactChoices`?**
-  _High betweenness centrality (0.162) - this node is a cross-community bridge._
+  _High betweenness centrality (0.149) - this node is a cross-community bridge._
 - **Are the 27 inferred relationships involving `CircuitMaintenance` (e.g. with `CircuitMaintenanceSerializer` and `Meta`) actually correct?**
   _`CircuitMaintenance` has 27 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 3 inferred relationships involving `CircuitMaintenanceModelTest` (e.g. with `MaintenanceImpactChoices` and `MaintenanceStatusChoices`) actually correct?**
